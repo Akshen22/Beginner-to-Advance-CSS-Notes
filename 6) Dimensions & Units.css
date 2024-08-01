@@ -1,3 +1,4 @@
+1) Height:
 The height property is used to set the height of an element. Height can be defined in percentage % or pixels px.
 Percentage height is calculated based on the height of the immediate parent element.
 
@@ -16,4 +17,33 @@ div {
 }
 img {
   height: 50%;
+}
+
+2) Weight:
+The width property is used to set the width of an element. Width can be defined in percentage % or pixels px.
+Percentage width is calculated based on the width of its immediate parent element.
+
+HTML:
+<div id="parent">
+  <div id="first">
+    This div is set to 300px width
+  </div>
+  <div id="second">
+    This div is set to 50% width
+  </div>
+</div>
+
+CSS:
+#parent {
+  border: 3px solid darkcyan;
+}
+#first {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+}
+#second {
+  width: 50%;
+  height: 100px;
+  background-color: orange;
 }
