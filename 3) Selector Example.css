@@ -10,7 +10,7 @@ CSS:
 * {
   text-align: center;
 }
-/* brings everything in the center */
+"*":- brings everything in the center
 
 img {
   height: 100px;
