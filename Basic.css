@@ -1,5 +1,12 @@
 1) Color:
+
+Example 1:
 body{
   background-color: blue;
   color: white;
+}
+
+Example 2:
+p{
+  color: blue;
 }
