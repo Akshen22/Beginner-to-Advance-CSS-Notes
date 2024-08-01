@@ -1,6 +1,20 @@
 List of all colors supported by the modern browsers and can be used:
 https://www.w3docs.com/learn-css/css-color-names.html
 
+* Basic method:
+HTML:
+<h1>
+  Light gray heading on a black background
+</h1>
+
+CSS:
+body {
+  background-color: black;
+}
+h1 {
+  color: lightgray;
+}
+
 * RGB Color Values:
 With color names, you can only choose from the 140 ones given here: https://www.w3docs.com/learn-css/css-color-names.html. 
 For styling, we need more freedom.
