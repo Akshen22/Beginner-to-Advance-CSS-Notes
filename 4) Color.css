@@ -34,3 +34,34 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+* HEX Color Values:
+HEX color value is a mix of Red, Green, Blue color values. The colour code uses the hexadecimal number range from 00 to ff to represent the different intensities.
+
+Look at the code given below:
+HTML:
+<h1>
+  Web Design
+</h1>
+<p id="one">
+  Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+</p>
+<p id="two">
+  The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization.
+</p>
+
+CSS:
+h1 {
+  /* Orange */
+  color: #ffa500;
+}
+#one {
+  /* Gray */
+  color: #808080;
+}
+#two {
+  /* Black background */
+  background-color: #000000;
+  /* White text */
+  color: #ffffff;
+}
+
