@@ -42,11 +42,11 @@ p {
 }
 
 
-a) To select the HTML elements that we want to style, we need selectors. In t2.14Inline Style
-he above example, we used body, h1, and p as the Selectors.
+a) We need selectors to select the HTML elements we want to style. In t2.14Inline Style
+We used body, h1, and p as the Selectors in the above example.
 Note that a different text color has been applied to the h1 element by using the h1 selector.
 b) Here, background color, color, and font size are the Properties that we want to change. 
-While, beige, dark green, blue, and 18px are the Values that we can give to these properties.
+While, beige, dark green, blue, and 18px are the Values we can give to these properties.
 
 3) Comments: /* */
 
@@ -60,3 +60,14 @@ Example:
 
 As we can see above, inline styling makes the code too long and confusing. This is why we avoid using inline styling.
 Use inline styling only when necessary.
+
+5) text-decoration:
+HTML:
+<h2>
+  Solar System
+</h2>
+
+CSS:
+h2 {
+  text-decoration: underline;
+}
