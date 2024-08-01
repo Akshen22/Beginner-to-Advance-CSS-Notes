@@ -47,3 +47,51 @@ CSS:
   height: 100px;
   background-color: orange;
 }
+
+3) Units:
+Absolute Units
+When we use absolute units to specify a length, the size is fixed and does not depend on the size of other elements.
+Example: px
+
+Relative Units
+When we use relative units to specify a length, it depends on the size of other elements.
+Example: %
+
+4) Pixels:
+A pixel represents a unit of measurement commonly used for specifying exact sizes and dimensions on a display. Each pixel corresponds to a single dot on the screen, maintaining the same physical size regardless of screen resolution or surrounding elements.
+
+Look at the code given below:
+HTML:
+<div id="pixels">
+</div>
+
+CSS:
+#pixels {
+  width: 100px;
+  height: 50px;
+  background-color: teal;
+}
+
+5) Percentage:
+When width, height or font size of an element is specified in %, it is relative to the parent element's width, height or font-size:
+
+HTML:
+<div>
+  Width, height and font size in %
+</div>
+<p>
+  Normal font size
+</p>
+
+CSS:
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+}
+div {
+  width: 50%;
+  height: 50%;
+  background-color: orange;
+  font-size: 200%;
+}
