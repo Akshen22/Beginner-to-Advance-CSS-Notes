@@ -65,3 +65,23 @@ h1 {
   color: #ffffff;
 }
 
+* HSL color system:
+(reference: https://courses.bigbinaryacademy.com/learn-css/colors/hsl-color-system/ )
+In the HSL color system, colors are represented by three values: Hue, Saturation, and Lightness.
+
+HTML:
+<p class="purple">I am purple.</p>
+<p class="blue">I am blue.</p>
+<p class="green">I am green.</p>
+
+CSS:
+.purple {
+  color: hsl(300, 100%, 25%);
+}
+.blue {
+  color: hsl(210, 45%, 20%);
+}
+.green {
+  color: hsl(150, 50%, 70%);
+}
+
