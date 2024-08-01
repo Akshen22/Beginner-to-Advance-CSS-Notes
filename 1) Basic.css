@@ -42,11 +42,18 @@ p {
 }
 
 
-a) To select the HTML elements that we want to style, we need selectors. In the above example, we used body, h1, and p as the Selectors.
+a) To select the HTML elements that we want to style, we need selectors. In t2.14Inline Style
+he above example, we used body, h1, and p as the Selectors.
 Note that a different text color has been applied to the h1 element by using the h1 selector.
 b) Here, background color, color, and font size are the Properties that we want to change. 
 While, beige, dark green, blue, and 18px are the Values that we can give to these properties.
 
 3) Comments: /* */
 
-4) 
+4) Inline Style:
+Inline styling is a way to specify CSS properties and their corresponding values directly on the HTML element using the style attribute.
+<h1 style="color:white; background-color: blue; font-size:14px; font-family:arial,sans-serif">
+      Inline style
+</h1>
+As we can see above, inline styling makes the code too long and confusing. This is why we avoid using inline styling.
+Use inline styling only when necessary.
