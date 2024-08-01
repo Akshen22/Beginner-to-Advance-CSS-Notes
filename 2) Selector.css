@@ -27,6 +27,47 @@ CSS:
 .heading {
   text-decoration: underline;
 }
+
+2) Adding Multiple Classes:
+HTML:
+<h1 class="title center">The Times of India</h1>
+
+CSS:
+.title {
+  font-weight: bold;
+  color: lightblue;
+}
+.center {
+  text-align: center
+}
 p {
   color: darkblue;
 }
+
+3) ID Selectors:
+When we need to style only one element on the page differently, using a class selector is not the best way.
+We can use the HTML id attribute to select that single element. The # symbol is used before the id name to select it.
+HTML:
+<h2 id="title">
+  Solar System
+</h2>
+<p>
+  The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly.
+</p>
+
+CSS:
+#title {
+  font-size: 36px;
+}
+p {
+  color: darkblue;
+}
+
+4) Differentiation between Entire h2, taking only 2 headings out of 3 and only 1 heading:
+a) For the change of the entire h2 will directly write: h2 {}
+b) taking only 2 headings out of 3: class!
+<h2 class="title caption center>
+->.title{}, .caption{}
+c) only 1 heading: id!
+<h2 id="title>
+-> #title{}
