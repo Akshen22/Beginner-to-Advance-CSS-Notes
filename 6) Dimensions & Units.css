@@ -95,3 +95,41 @@ div {
   background-color: orange;
   font-size: 200%;
 }
+
+6) Percentage Practical Use:
+Percentage units can be used when we want the size of the children elements to be dependent on the size of their parent elements.
+
+Take a look at this example:
+HTML:
+<div class="parent">
+    <div class="child smaller-block">
+    </div>
+    <div class="child larger-block">
+    </div>
+</div>
+
+CSS:
+.parent {
+    width: 500px;
+    height: 300px;
+    background-color: peachpuff;
+}
+
+.child {
+    display: inline-block;
+    height: 200px;
+    background-color: midnightblue;
+    margin: 8px;
+    color: snow;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.smaller-block {
+    width: 20%;
+}
+
+.larger-block {
+    width: 70%;
+}
