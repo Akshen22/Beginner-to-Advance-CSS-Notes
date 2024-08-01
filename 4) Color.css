@@ -1,1 +1,36 @@
+List of all colors supported by the modern browsers and can be used:
+https://www.w3docs.com/learn-css/css-color-names.html
+
+* RGB Color Values:
+With color names, you can only choose from the 140 ones given here: https://www.w3docs.com/learn-css/css-color-names.html. 
+For styling, we need more freedom.
+To get a specific color, we can mix the 3 primary colors Red, Green, and Blue in different proportions. This way, we can create any color that we require.
+
+For example, look at the code given below:
+HTML:
+<h1>
+  Web Design
+</h1>
+<p id="one">
+  Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+</p>
+<p id="two">
+  The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization.
+</p>
+
+CSS:
+h1 {
+  /* Orange */
+  color: rgb(255, 165, 0);
+}
+#one {
+  /* Gray */
+  color: rgb(128, 128, 128);
+}
+#two {
+  /* Black background */
+  background-color: rgb(0, 0, 0);
+  /* White text */
+  color: rgb(255, 255, 255);
+}
 
