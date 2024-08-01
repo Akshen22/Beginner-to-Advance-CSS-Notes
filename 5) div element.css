@@ -1,0 +1,15 @@
+HTML:
+<div>
+  <h1>What is Universe?</h1>
+  <p>
+    The universe is all of space and time and their contents, including planets, stars, galaxies, and all other forms of matter and energy.
+  </p>
+</div>
+
+CSS:
+div {
+  background-color: peachpuff;
+}
+
+Here, there's no need to give color to h1, p in two ways, as using div we can give it at once!
+
