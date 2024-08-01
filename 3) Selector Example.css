@@ -10,6 +10,7 @@ CSS:
 * {
   text-align: center;
 }
+/* brings everything in the center */
 
 img {
   height: 100px;
@@ -30,7 +31,7 @@ p {
 }
 
 -> In the above example, we tried to style the paragraph in three different ways.
-We used the element selector p and changed the font-size.
-We used the class selector .paragraph to change the background colour.
-Finally, we used the #para id selector and changed the colour of the text.
-As can be seen, we can select an element using any type of a selector.
+We used the element selector p and changed the font size.
+We used the class selector .paragraph to change the background color.
+Finally, we used the #para id selector and changed the color of the text.
+As can be seen, we can select an element using any type of selector.
