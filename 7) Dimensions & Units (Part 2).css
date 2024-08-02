@@ -24,7 +24,7 @@ HTML:
   </h1>
 </div>
 
-CSS:
+CSS 1:
 #parent {
   font-size: 20px;
 }
@@ -34,3 +34,13 @@ CSS:
   /* 10em = 10*font-size-of-parent = 10*15px = 150px */
   background-color: blue;
 }
+
+CSS2:
+#child {
+  width: 10em;
+  height: 10em;
+  /* 10em = 10*font-size-of-parent = 10*16px = 160px */
+  background-color: blue;
+}
+
+*If no font size is given, the default gonna be 16px.
