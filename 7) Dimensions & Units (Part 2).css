@@ -1,1 +1,36 @@
+1) em:
+When the length of an element is specified using em, it is calculated based on the font size of the element.
 
+Example:
+HTML:
+<div>
+  Relative unit 'em'
+</div>
+
+CSS:
+div {
+  font-size: 20px;
+  width: 10em;             
+  /*(10em*20px)*/
+  background-color: blue
+}
+
+If an element has no font-size specified, the length is calculated based on the font size of its nearest parent element.
+Example:
+HTML:
+<div id="parent">
+  <h1 id="child">
+    Relative unit 'em'
+  </h1>
+</div>
+
+CSS:
+#parent {
+  font-size: 20px;
+}
+#child {
+  width: 10em;
+  height: 10em;
+  /* 10em = 10*font-size-of-parent = 10*15px = 150px */
+  background-color: blue;
+}
