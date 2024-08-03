@@ -1,1 +1,18 @@
+1) Outline:
+The outline property in CSS is used to draw a line around an HTML element. We can style the outline by specifying its line style, colour, and width.
+
+HTML:
+<div><.div>
+
+CSS:
+div {
+  width: 400px;
+  height: 100px;
+  margin: 30px auto;
+  background-color: lightgrey;
+  border: 4px dotted black;
+  outline: 4px dashed tomato; /*size-style-color*/
+}
+
+*In the above example, we can see that the outline is drawn outside the element's border, thereby not affecting the total width and height of the element.
 
