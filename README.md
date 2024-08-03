@@ -3,7 +3,7 @@
 Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensive syllabus covering everything you need to become proficient in CSS. Whether you're a beginner or looking to advance your skills, this guide is tailored for you. 🌐
 
 ## 📚 Table of Contents: Jump into CSS
-1. [https://github.com/Akshen22/CSS/blob/main/1)%20Basic.css](#introduction-to-css)
+1. [Introduction to CSS](#introduction-to-css)
 2. [Selectors](#selectors)
 3. [Colors](#colors)
 4. [Div Element](#div-element)
