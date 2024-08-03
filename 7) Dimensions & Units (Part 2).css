@@ -1,4 +1,4 @@
-1) em:
+1) em: (dependent on parent)
 When the length of an element is specified using em, it is calculated based on the font size of the element.
 
 Example:
@@ -44,3 +44,30 @@ CSS2:
 }
 
 *If no font size is given, the default gonna be 16px.
+
+2) rem: (dependent on root: <html> </html>)
+
+HTML: 
+<div id="first">
+</div>
+<div id="second">
+</div>
+
+CSS:
+html {
+  font-size: 10px;
+}
+#first {
+  width: 10rem;
+  height: 10rem;
+  background-color: beige;
+  font-size: 1em;
+}
+#second {
+  width: 10rem;
+  height: 10rem;
+  background-color: orange;
+  font-size: 24px;
+}
+
+*font size 24px won't be counted as the root HTML tag has size 10px.
