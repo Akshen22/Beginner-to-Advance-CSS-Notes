@@ -1,0 +1,43 @@
+Question:
+Using the CSS knowledge that you have gained so far, attempt to build the following:
+A bunch of rectangles that can be resized. Ensure that they don't look bad on any screen size.
+On mobile screens, the text should not flow out of the rectangles, and on large TV screens, there should not be too much empty space inside the rectangles.
+
+HTML:
+<div class="box red">Red is beautiful.</div>
+<div class="box blue">Blue is wonderful.</div>
+<div class="box moccasin">Moccasin is tasteful.</d>
+
+CSS:
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 5em
+    min-width: 1em;
+    min-height: 5em;
+    margin-bottom: 20px;
+    
+}
+
+/* Different background colors for each box */
+.red {
+    background-color: red;
+    max-width: 110px;
+}
+
+.blue {
+    background-color: blue;
+    max-width: 500px;
+}
+
+.moccasin {
+    background-color: moccasin;
+    max-width: 400px;
+}
