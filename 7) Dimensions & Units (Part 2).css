@@ -77,3 +77,19 @@ html {
 Padding is the space between the content of an element and its border. It creates a buffer zone inside the element, adding space around the content while keeping it within the element's border. 
 Padding is useful for improving readability and layout by providing separation between content and the element's edge.
 
+4) vh:
+When length is specified using vh, it is calculated based on the window height, also known as viewport height.
+The viewport is the visible part of a screen. In the example given below, the viewport is the rectangular window given below the code editor, and, the div covers it completely with a height of 100vh.
+1vh is 1% of the window height. So, 100vh is equivalent to the window height.
+
+Example:
+HTML:
+<div>
+  Occupies 100% height of the window.
+</div>
+
+CSS:
+div {
+  height: 100vh;
+  background-color: beige;
+}
