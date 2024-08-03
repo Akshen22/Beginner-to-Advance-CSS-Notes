@@ -33,7 +33,7 @@ CSS:
   margin-right: 80px;
 }
 
-3) Margin 1 liner:
+3) Margin shortcut:
 Instead of using individual properties for top, bottom, right, and left margins, the single margin property can be used to specify different values for each direction.
 
 a) Four values: If this property has four different values separated by spaces:
