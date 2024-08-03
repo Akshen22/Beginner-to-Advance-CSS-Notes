@@ -1,1 +1,6 @@
+1) Maximum Height:
+a) The max-height property in CSS is used to set the maximum height of an element, allowing us to restrict how tall the element can grow.
+b) If the content inside the element is smaller than the value of max-height, the max-height property has no effect. 
+In this case, the element's height is calculated based on its content.
+c) If the content exceeds the max-height value, the excess content overflows, and the element's height will be limited by the specified max-height.
 
