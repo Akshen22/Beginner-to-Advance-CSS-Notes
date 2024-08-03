@@ -93,3 +93,9 @@ div {
   height: 100vh;
   background-color: beige;
 }
+
+5) vw:
+When length is specified using vw, it is calculated based on the window width, also known as viewport width.
+Viewport is the visible part of a screen. In the example given below, the viewport is the rectangular window given below the code editor and, the div covers 50% of the width of 100vw and has the same height.
+1vw is 1% of the window width. So, 100vw is equivalent to the window width.
+*Similar to: vh!
