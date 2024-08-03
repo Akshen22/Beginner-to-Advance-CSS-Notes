@@ -72,3 +72,8 @@ html {
 
 *font size 24px won't be counted as the root HTML tag has size 10px.
 10rem = 10*font-size-of-html = 10*10px = 100px
+
+3) padding:
+Padding is the space between the content of an element and its border. It creates a buffer zone inside the element, adding space around the content while keeping it within the element's border. 
+Padding is useful for improving readability and layout by providing separation between content and the element's edge.
+
