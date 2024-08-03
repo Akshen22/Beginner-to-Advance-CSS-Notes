@@ -189,7 +189,7 @@ Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensiv
 To get started with the CSS Mastery Syllabus, clone this repository:
 
 ```bash
-git clone [https://github.com/yourusername/css-mastery-syllabus.git](https://github.com/Akshen22/CSS/tree/main)
+git clone https://github.com/Akshen22/CSS/tree/main
 ```
 
 Navigate to the project directory:
