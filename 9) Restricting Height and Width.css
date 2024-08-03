@@ -8,3 +8,13 @@ c) If the content exceeds the max-height value, the excess content overflows, an
 a) The max-width property in CSS is used to set the maximum width of an element, restricting how wide it can become. This ensures that the element does not become too wide.
 b) If the element's width is smaller than the value of max-width, the max-width property has no effect, and the element's width remains based on its assigned width.
 c) If max-width is smaller than width, the max-width value takes precedence and restricts the width of the element, even if the width property suggests a larger width for the element.
+
+3) Minimum Height:
+a) The min-height property in CSS is used to set the minimum height of an element, ensuring it does not shrink below a certain height.
+b) If the content inside the element is larger than the value of min-height, the min-height property has no effect, and the element's height expands based on its content.
+c) If the content is smaller than the min-height value, the element's height will be adjusted to meet the minimum height specified.
+
+4) Minimum Weight:
+a)
+b)
+c)
