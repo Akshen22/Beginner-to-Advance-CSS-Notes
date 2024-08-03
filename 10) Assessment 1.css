@@ -19,9 +19,8 @@ CSS:
     padding: 10px;
     color: black;
     text-align: center;
-    font-size: 5em
-    min-width: 1em;
-    min-height: 5em;
+    font-size: 25px;
+    min-height: 200px;
     margin-bottom: 20px;
     
 }
@@ -29,12 +28,14 @@ CSS:
 /* Different background colors for each box */
 .red {
     background-color: red;
-    max-width: 110px;
+    max-width: 200px;
 }
 
 .blue {
     background-color: blue;
+    min-width: 180px;
     max-width: 500px;
+    margin-right: 550px;
 }
 
 .moccasin {
