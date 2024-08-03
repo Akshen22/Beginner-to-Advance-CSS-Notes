@@ -52,3 +52,18 @@ margin: 10px 20px;
 d) One value: If this property has only one single value:
 margin: 10px;
 All four margins are 10px in size.
+
+4) Negative Margins:
+The margin properties can also accept negative values. This reduces the spacing around elements.
+#first {
+  background-color: orange;
+  height: 100px;
+}
+#second {
+  background-color: green;
+  width: 50%;
+  height: 100px;
+  margin-top: -2em;
+}
+
+-> The green color overlies the orange color a bit!
