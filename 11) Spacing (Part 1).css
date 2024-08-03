@@ -1,0 +1,34 @@
+1) Margin:
+The margin property defines the spacing around an element.
+
+HTML:
+<p>
+  A paragraph with 2em margin on all four sides
+</p>
+<span>
+  Another element here
+</span
+
+/* In HTML, a <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It's often used to apply styles or manipulate a specific part of the text or content using CSS or JavaScript.
+The <span> element has no semantic meaning on its own. Its main purpose is to allow developers to target a portion of the content for styling or scripting without affecting the document's structure.*/
+
+CSS:
+body {
+  background-color: orange;
+}
+p {
+  background-color: yellow;
+  margin: 2em;
+}
+
+2) We can separately set margin properties for each side of an element using margin-top, margin-bottom, margin-left and margin-right.
+CSS:
+#first {
+  background-color: yellow;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+#second {
+  background-color: orange;
+  margin-right: 80px;
+}
