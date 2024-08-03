@@ -205,14 +205,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## 🌐 Connect with Us!
-Stay updated with the latest in web design and development:
-- [Follow us on Twitter](https://twitter.com/yourprofile) 🐦
-- [Join our Discord Community](https://discord.gg/yourcommunity) 💬
-- [Subscribe to our YouTube Channel](https://youtube.com/yourchannel) 📺
-
----
-
 Happy Coding! 🎉
 
 ---
