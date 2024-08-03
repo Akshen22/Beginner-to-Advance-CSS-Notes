@@ -67,3 +67,10 @@ The margin properties can also accept negative values. This reduces the spacing 
 }
 
 -> The green color overlies the orange color a bit!
+
+5) Auto margin:
+The margin property can be set to auto value. This horizontally centers an element.
+The left and right margins are auto-calculated by equally splitting the remaining space.
+a) margin: auto; (left & right are automatically adjusted)
+b) margin-left: auto;
+c) margin-right: auto:
