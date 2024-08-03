@@ -21,6 +21,7 @@ p {
   margin: 2em;
 }
 
+
 2) We can separately set margin properties for each side of an element using margin-top, margin-bottom, margin-left and margin-right.
 CSS:
 #first {
@@ -32,6 +33,7 @@ CSS:
   background-color: orange;
   margin-right: 80px;
 }
+
 
 3) Margin shortcut:
 Instead of using individual properties for top, bottom, right, and left margins, the single margin property can be used to specify different values for each direction.
@@ -53,6 +55,7 @@ d) One value: If this property has only one single value:
 margin: 10px;
 All four margins are 10px in size.
 
+
 4) Negative Margins:
 The margin properties can also accept negative values. This reduces the spacing around elements.
 #first {
@@ -68,9 +71,67 @@ The margin properties can also accept negative values. This reduces the spacing 
 
 -> The green color overlies the orange color a bit!
 
+
 5) Auto margin:
 The margin property can be set to auto value. This horizontally centers an element.
 The left and right margins are auto-calculated by equally splitting the remaining space.
 a) margin: auto; (left & right are automatically adjusted)
 b) margin-left: auto;
 c) margin-right: auto:
+
+
+6) Auto Margins with Width:
+Some HTML elements start on a new line and occupy the full width available to them.
+Let us have a look at some examples of elements showing this behavior:
+
+HTML:
+<div>
+div element
+</div>
+<p>
+p element
+</p>
+<h1>h1 to h6 elements</h1>
+
+CSS:
+div {
+  background-color: red;
+  margin-right: auto;
+}
+
+p {
+  background-color: yellow;
+}
+
+h1 {
+  background-color: green;
+}
+
+-> margin: auto; doesn't work here, so will also use fixed width!
+
+Example:
+HTML:
+<header class="header-container">
+  <div class="centered-element">I have a width, the margin: auto property works!</div>
+</header>
+<br>
+<footer class="footer-container">
+  <div class="non-centered-element">I do not have a width, the margin: auto property does not work!</div>
+</footer>
+
+CSS:
+.header-container {
+  background-color: blue;
+}
+.centered-element {
+  width: 50%;
+  background-color: yellow;
+  margin: auto;
+}
+.footer-container {
+  background-color: red;
+}
+.non-centered-element {
+  background-color: yellow;
+  margin: auto;
+}
