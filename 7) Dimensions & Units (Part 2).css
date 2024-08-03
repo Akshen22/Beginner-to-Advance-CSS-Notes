@@ -71,3 +71,4 @@ html {
 }
 
 *font size 24px won't be counted as the root HTML tag has size 10px.
+10rem = 10*font-size-of-html = 10*10px = 100px
