@@ -14,7 +14,7 @@ a) The min-height property in CSS is used to set the minimum height of an elemen
 b) If the content inside the element is larger than the value of min-height, the min-height property has no effect, and the element's height expands based on its content.
 c) If the content is smaller than the min-height value, the element's height will be adjusted to meet the minimum height specified.
 
-4) Minimum Weight:
-a)
-b)
-c)
+4) Minimum Widtht:
+a) The min-width property in CSS is used to set the minimum width of an element, ensuring it doesn't shrink below a certain width.
+b) If the element's width is larger than the value of min-width, the min-width property has no effect, and the element's width expands based on its assigned width.
+c) If min-width is larger than width, the min-width value takes precedence and enforces a minimum width for the element, even if the width property suggests a smaller width for the element.
