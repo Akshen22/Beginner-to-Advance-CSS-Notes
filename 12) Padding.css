@@ -1,0 +1,29 @@
+1) Basic:
+The padding property defines the spacing within an element, controlling the space between the content in the element and its boundaries.
+
+HTML:
+<div class="parent">
+  <p>Welcome to BB Academy</p>
+</div>
+
+CSS:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  background-color: lightblue;
+  height: 80px;
+  padding: 30px;
+}
+
+p {
+  width: 50%;
+  background-color: chartreuse;
+}
+
+2) Sides:
+We can separately set padding properties for each side of an element using padding-top, padding-bottom, padding-left and padding-right.
+
