@@ -1,0 +1,13 @@
+1) Background Color Overview:
+We can add a background colour to an HTML element using the background-color property.
+Colour can be specified using colour names, HEX values or RGB values.
+
+body {
+  background-color: teal;
+}
+p {
+  background-color: #f0fdfa;
+  padding: 20px;
+}
+
+2) 
