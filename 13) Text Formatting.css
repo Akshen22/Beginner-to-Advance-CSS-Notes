@@ -1,5 +1,21 @@
 1) color:
-We can set the colour of the text in any element on the web page using its color property.
+We can set the color of the text in any element on the web page using its color property.
 The values can be color names, HEX values, or RGB values.
-/*while will use <body></body> element, in css theres no need to write: .body{}, can work as: body{}*/
+
+2) text-alignment:
+We can make our text-align the way we want, using the text-align property.
+We can use the values left, right, center, or justify to align the text accordingly.
+h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+ul {
+  text-align: left;
+  /* This is the default value */
+}
+#credits {
+  text-align: right;
+}
 
