@@ -21,10 +21,10 @@ As you can see in the above example, border-radius can be used with or without t
 
 12) Border Radius - Multiple Values:
 
-The first value is for the top-left corner.
-The second value is for the top-right corner.
-The third value is for the bottom-right corner.
-The fourth value is for the bottom-left corner.
+The first value is for the top-left corner. (border-top-left-radius)
+The second value is for the top-right corner. (border-top-right-radius)
+The third value is for the bottom-right corner. (border-bottom-left-radius)
+The fourth value is for the bottom-left corner. (border-bottom-right-radius)
 
 div {
   width: 250px;
