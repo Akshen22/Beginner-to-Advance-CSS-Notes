@@ -1,0 +1,17 @@
+11) Rounded Corners:
+When you need rounded corners instead of the default sharp corners, you can use the border-radius property.
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#first {
+  background-color: teal;
+  border-radius: 15px;
+}
+#second {
+  background-color: red;
+  border: 5px solid darkred;
+  border-radius: 50%;
+}
