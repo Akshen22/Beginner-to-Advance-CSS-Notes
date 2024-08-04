@@ -39,3 +39,11 @@ a {
 #new-price {
   color: green;
 }
+
+4) line-height: (space between 2 lines)
+We can control the space between lines of text using the line-height property.
+The value can be given as a unitless number like 1.5, 2 etc or in px, em, % or even the keyword normal.
+The number value or percentage is used as a multiplier. line-height: 1.5 means the space between the lines will be 1.5 times the font size of the element.
+The value of line-height: normal is set based on the browser's default value.
+
+5) 
