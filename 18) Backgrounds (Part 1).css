@@ -30,4 +30,15 @@ body {
 
 *In the above example, we used a large image. But if the image is smaller than the size of the element, the image repeats itself to cover the entire space*
 
-3) 
+3) Background Repeat:
+By default, the background image repeats itself horizontally and vertically, if it's smaller than the element. This can be changed using the background-repeat property.
+When this property is set to no-repeat, the image does not repeat itself:
+
+body {
+  padding: 60px;
+  background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=150');
+  /* Image will not repeat */
+  background-repeat: no-repeat;
+}
+
+4) 
