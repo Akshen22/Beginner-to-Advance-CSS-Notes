@@ -1,0 +1,60 @@
+1) Overview:
+The border properties in CSS are used to create borders around an HTML element. We can control the width, color and the general styling of the border using these properties.
+
+HTML:
+<div id="first">
+  Border on all sides
+</div>
+<div id="second">
+  Green dotted border at the bottom
+</div>
+<button>
+  Button with 3D effect
+</button>
+
+CSS:
+div {
+  padding: 10px;
+  margin: 10px;
+}
+#first {
+  border: solid 1px darkgrey;
+}
+#second {
+  border-bottom-style: dotted;
+  border-color: green;
+}
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-style: outset;
+}
+
+2) border-style:
+HTML:
+<div id="first">
+  Solid border
+</div>
+<div id="second">
+  Dashed border
+</div>
+<div id="third">
+  Double border
+</div>
+
+CSS:
+div {
+  padding: 10px;
+  margin: 10px;
+}
+#first {
+  border-style: solid;
+}
+#second {
+  border-style: dashed;
+}
+#third {
+  border-style: double;
+}
+
+*Values for border-style include solid, dashed, double, dotted, groove, ridge, inset, outset and none.
