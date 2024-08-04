@@ -67,3 +67,26 @@ div {
 #first {
   border-style: solid dotted dashed ridge; (top right bottom left) 
 }
+
+4) Border width:
+The border-width property is used to specify the thickness of the borders.
+For specifying values, we can use the standard absolute or relative units or we can use values like thin, medium, or thick.
+When this property is not set, a medium border appears by default.
+
+CSS:
+div {
+  padding: 10px;
+  margin: 10px;
+}
+#first {
+  border-style: solid;
+  border-width: thin;
+}
+#second {
+  border-style: solid;
+  /* Width not specified */
+}
+#third {
+  border-style: none none solid;
+  border-width: 2px;
+}
