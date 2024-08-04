@@ -1,0 +1,22 @@
+6) Border Color:
+The border-color property is used to specify the colour of the borders using color names or RGB or HEX values.
+When this property is not set, the border takes the value of the color property of the element. The default value for color is black.
+Border colour can also be set to transparent.
+
+div {
+  padding: 10px;
+  margin: 10px;
+}
+#first {
+  border-style: solid;
+  border-color: orange;
+}
+#second {
+  border-style: double;
+  border-color: #cccccc;
+}
+#third {
+  border-style: solid;
+  color: green;
+  /* Border color not specified */
+}
