@@ -32,7 +32,8 @@ body {
 
 3) Background Repeat:
 By default, the background image repeats itself horizontally and vertically, if it's smaller than the element. This can be changed using the background-repeat property.
-When this property is set to no-repeat, the image does not repeat itself:
+
+a) When this property is set to no-repeat, the image does not repeat itself:
 
 body {
   padding: 60px;
@@ -40,5 +41,9 @@ body {
   /* Image will not repeat */
   background-repeat: no-repeat;
 }
+
+b) When the property is set to repeat-x, it repeats itself only in the horizontal direction:
+
+c) When the property is set to repeat-y, it repeats itself only in the vertical direction:
 
 4) 
