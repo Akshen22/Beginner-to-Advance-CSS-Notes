@@ -1,6 +1,6 @@
-1) Background Color Overview:
-We can add a background colour to an HTML element using the background-color property.
-Colour can be specified using colour names, HEX values or RGB values.
+1) Background Color:
+We can add a background color to an HTML element using the background-color property.
+Color can be specified using color names, HEX values, or RGB values.
 
 body {
   background-color: teal;
@@ -10,4 +10,24 @@ p {
   padding: 20px;
 }
 
-2) 
+2) Background Image:
+An image can be added to the background of any element using the background-image property.
+
+HTML:
+<h1>
+  Monsoon
+</h1>
+<p>
+  A monsoon is traditionally a seasonal reversing wind accompanied by corresponding changes in precipitation, but is now used to describe seasonal changes in atmospheric circulation and precipitation associated with the asymmetric heating of land and sea.
+</p>
+
+CSS:
+body {
+  background-image: url('https://images.pexels.com/photos/4913167/pexels-photo-4913167.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600');
+  padding: 30px;
+  color: white;
+}
+
+*In the above example, we used a large image. But if the image is smaller than the size of the element, the image repeats itself to cover the entire space*
+
+3) 
