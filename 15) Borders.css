@@ -57,4 +57,13 @@ div {
   border-style: double;
 }
 
-*Values for border-style include solid, dashed, double, dotted, groove, ridge, inset, outset and none.
+*Values for border style include solid, dashed, double, dotted, groove, ridge, inset, outset and none.
+
+3) Multiple values:
+div {
+  padding: 10px;
+  margin: 10px;
+}
+#first {
+  border-style: solid dotted dashed ridge; (top right bottom left) 
+}
