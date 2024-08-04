@@ -166,3 +166,28 @@ What is Margin Collapse?
 Margin collapse occurs when the vertical margins of adjacent elements meet or overlap. Instead of stacking on top of each other, the margins collapse into a single margin.
 So, how do we add a margin space above the p element in our above code? The answer is padding.
 We will learn about padding and how to use it in the next lesson.
+
+8) Setting margin values in percentage:
+The margin and padding of an element in percentage value are calculated relative to the width of its parent element.
+Let's look at an example for margin property:
+HTML:
+<div class="parent-container">
+  <div class="child-element"></div>
+</div>
+
+CSS:
+.parent-container {
+  width: 150px;
+  height: 200px;
+  border: 5px solid red;
+}
+
+.child-element {
+  width: 150px;
+  height: 200px;
+  border: 5px dashed blue;
+
+  /* Add a margin in percentage */
+  margin: 10%;
+
+}
