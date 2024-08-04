@@ -20,6 +20,12 @@ div {
 As you can see in the above example, border-radius can be used with or without the border property.*
 
 12) Border Radius - Multiple Values:
+
+The first value is for the top-left corner.
+The second value is for the top-right corner.
+The third value is for the bottom-right corner.
+The fourth value is for the bottom-left corner.
+
 div {
   width: 250px;
   height: 150px;
