@@ -59,7 +59,7 @@ div {
 
 *Values for border style include solid, dashed, double, dotted, groove, ridge, inset, outset and none.
 
-3) Multiple values:
+3) Border Style: Multiple values:
 div {
   padding: 10px;
   margin: 10px;
@@ -89,4 +89,14 @@ div {
 #third {
   border-style: none none solid;
   border-width: 2px;
+}
+
+5) Border width: Multiple values:
+div {
+  padding: 10px;
+  margin: 10px;
+}
+#first {
+  border-style: solid;
+  border-width: thin 4px medium 10px;
 }
