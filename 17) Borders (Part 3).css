@@ -19,4 +19,10 @@ div {
 *A square can be turned into a circle and a rectangle into an oval, if we give border-radius the value 50%.
 As you can see in the above example, border-radius can be used with or without the border property.*
 
-12) 
+12) Border Radius - Multiple Values:
+div {
+  width: 250px;
+  height: 150px;
+  background-color: teal;
+  border-radius: 40px 10px 0px 100px;
+}
