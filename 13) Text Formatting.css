@@ -1,0 +1,5 @@
+1) color:
+We can set the colour of the text in any element on the web page using its color property.
+The values can be color names, HEX values, or RGB values.
+/*while will use <body></body> element, in css theres no need to write: .body{}, can work as: body{}*/
+
