@@ -49,3 +49,19 @@ div {
   border-bottom-style: dashed;
   border-color: #cccccc;
 }
+
+9) Border Shorthand Property:
+The three different border properties for style, width, and color can be combined into a single border shorthand property.
+
+div {
+  padding: 10px;
+  margin: 10px;
+  background-color: pink;
+}
+
+/* Border created using border-style, border-width and border-color properties */
+#first {
+border: 5px dashed red;
+}
+
+*For the border shorthand property, border-style value is required. The colour and width are optional.*
