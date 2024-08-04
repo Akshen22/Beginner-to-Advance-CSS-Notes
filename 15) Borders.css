@@ -100,3 +100,5 @@ div {
   border-style: solid;
   border-width: thin 4px medium 10px;
 }
+
+Solve: Apply border-bottom: 2px solid; to the .header, .container, and .footer class elements.
