@@ -15,4 +15,41 @@ p {
   font-size: 120%;
 }
 
-7) 
+7) font-weight:
+The font-weight property is used to make text bolder or lighter.
+We can use normal, bold, lighter, and bolder values for this. 
+We can also use numbers in the multiples of 100 such as 100, 200, and so on up to 900. 
+Here 100 is the lightest and 900 is the boldest.
+
+CSS:
+#first {
+  font-weight: bold;
+}
+#second {
+  font-weight: 400; /* Normal */
+}
+
+8) font-family:
+The font-family property can help us choose which font we want for our text.
+By default, this value is serif. The other generic font families are sans-serif, monospace, cursive, and fantasy.
+
+CSS:
+#serif {
+  font-family: serif;
+}
+#sans-serif {
+  font-family: sans-serif;
+}
+#monospace {
+  font-family: monospace;
+}
+#cursive {
+  font-family: cursive;
+}
+#fantasy {
+  font-family: fantasy;
+}
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
