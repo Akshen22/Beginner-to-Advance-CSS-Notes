@@ -19,3 +19,23 @@ ul {
   text-align: right;
 }
 
+3) Text decoration:
+We can underline text, strike through it or remove an underline using the text-decoration property.
+CSS:
+h1{
+  text-decoration: underline overline dotted red;
+}
+h2 {
+  text-decoration: underline;
+}
+#old-price {
+  text-decoration: line-through;
+}
+a {
+  text-decoration: none;
+  /* Removes default underline */
+  color: purple;
+}
+#new-price {
+  color: green;
+}
