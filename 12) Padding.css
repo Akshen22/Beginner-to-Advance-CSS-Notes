@@ -27,3 +27,10 @@ p {
 2) Sides:
 We can separately set padding properties for each side of an element using padding-top, padding-bottom, padding-left and padding-right.
 
+3) Padding Shorthand Property:
+Instead of using individual properties for top, bottom, right, and left padding, the single padding property can be used to specify different values for each direction.
+Similar to Margin!
+a) Four values: padding: 10px 20px 25px 30px; (top, right, bottom, left)
+b) Three values: padding: 10px 20px 30px; (top, right& left, bottom)
+c) Two values: padding: 10px 20px; (top & bottom, right & left)
+d) One value: padding: 10px; (all sides)
