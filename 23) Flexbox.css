@@ -34,3 +34,36 @@ section {
   padding: 5px 15px;
   background-color: #F1F5F9;
 }
+
+2) Flex Direction:
+
+Types: Row | Row-Reverse | Column | Column-Reverse
+
+By default, the elements within a flex container are stacked next to each other in a single row. The stacking happens from left to right. We can change this with the flex-direction property on the container element.
+You can use these values - row, row-reverse, column, and column-reverse for the flex-direction property:
+
+CSS:
+.container {
+  display: flex;
+  padding: 10px;
+  background-color: beige;
+}
+.container > div {
+  background-color: orange;
+  padding: 10px;
+  margin: 5px;
+}
+.row {
+  flex-direction: row;
+}
+.row-rev {
+  flex-direction: row-reverse;
+}
+.col {
+  flex-direction: column;
+  min-height:200px;
+}
+.col-rev {
+  flex-direction: column-reverse;
+  min-height:200px;
+}
