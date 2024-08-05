@@ -48,4 +48,27 @@ c) When the property is set to repeat-y, it repeats itself only in the vertical 
 
 d) background-repeat: repeat (will repeat)
 
-4) 
+4) Background Size:
+
+a) The background image for any element retains its original size. To adjust the image size, we need to use the background-size property.
+When this property is set to cover, the image stretches or scales down in size to fill the entire container:
+
+div {
+  padding: 60px;
+  background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=400');
+  /* Image stretches to occupy full space */
+    background-size: cover;
+}
+
+b) The image stretches its width and height proportionately to fill up the entire space. If you resize the window, you can see that the image is either cropped at the bottom or at the right.
+If instead, we want the image to be fully visible, the background size property can be set to contain:
+
+div {
+  padding: 60px;
+  background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=200');
+
+  /* Stretches as much as possible
+  but shows full image */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
