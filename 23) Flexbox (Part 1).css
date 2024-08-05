@@ -120,3 +120,7 @@ CSS:
 }
 
 (https://courses.bigbinaryacademy.com/learn-css/flexbox/justify-content/)
+
+5) Flex Direction Practically Uses:
+Let us look at a practical use case for the flex-direction property. A common requirement in web design is to create a navigation menu that adjusts its layout based on the screen size.
+Typically, navigation menus are displayed horizontally on larger screens and vertically on smaller screens. Using flex-direction, we can achieve this seamlessly.
