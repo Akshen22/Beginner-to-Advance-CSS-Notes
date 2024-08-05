@@ -1,0 +1,24 @@
+1) Overview:
+In CSS, all elements are represented as rectangular boxes in the browser.
+The width and height specified for an element in CSS are not the final width and height occupied by the element on the web page.
+The actual dimensions include the collective size of padding, borders and height or width.
+Let us take a look at an example:
+
+HTML:
+<div>
+  Milky Way
+</div>
+
+CSS:
+div {
+  background-color: lightgreen;
+  width: 250px;
+  height: 150px;
+  padding: 50px;
+  border: solid 40px darkgreen;
+  margin: 30px;
+}
+
+* Background --> Padding --> Content = Total size of the box!
+
+2) 
