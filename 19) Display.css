@@ -33,4 +33,16 @@ a {
 
 *For inline elements, we cannot specify width or height. Also, vertical margins do not have any effect*
 
-3) 
+3) Display Inline Block:
+Sometimes it's helpful to have elements displayed in the same line but also behave like block-level elements with specified height and width.
+This can be achieved with the display value of inline-block:
+
+CSS:
+a {
+  display: inline-block;
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 50px;
+}
