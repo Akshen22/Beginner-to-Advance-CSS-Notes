@@ -1,0 +1,56 @@
+HTML:
+<div class=container>
+  <div class="box" id='box1'>1</div>
+  <div class="box" id='box2'>2</div>
+  <div class="box" id='box3'>3</div>
+  <div class="box" id='box4'>4</div>
+</div>
+
+CSS:
+.container {
+  margin: 0px;
+  border: 2px solid lightgrey;
+  background-color: khaki;
+  height: 4000px;
+}
+
+.box {
+  display: inline-block;
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+#box4 {
+  position: relative;
+  top: 34px;
+  right: 35px;
+}
+/*Relative moves from its original place according to the given value*/
+
+#box3 {
+  position: absolute;
+  top: 34px;
+  left: 35px;
+}
+/*Whereas, Absolute moves from its distance between parents place*/
+
+#box2 {
+  position: fixed;
+  top: 400px;
+  left: 350px;
+}
+/*Fixed changes its place as said but gonna stay there forever won't move when scrolled*/
+
+#box1 {
+  position: sticky;
+  left: 400px;
+  bottom: 3000px; 
+}
+/*a) Sticky toggles between relative and fixed
+b) The .sticky element initially behaves like a relative element and moves with the flow of the document.
+c) When you scroll past it, it sticks to the top of its container (or viewport if no container is defined) and remains there until the parent container is out of view.*/
+
+/*There's 5th: Static, who just shifted as asked by users!*/
+
