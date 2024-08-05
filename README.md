@@ -52,7 +52,7 @@ Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensiv
 - Pseudo-classes and Pseudo-elements
 
 ## 🎨 Colors
-- Color Names, Hex Codes, RGB, RGBA, HSL, HSLA
+- Color Names, Hex Codes, RGB, HEXA, HSL
 - Applying Colors to Elements
 
 ## 📦 Div Element
