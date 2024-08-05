@@ -72,7 +72,7 @@ But there is a big difference between them.
 Let's look at an example. When you set the top property of a relative element to 50px, only that element is shifted by 50px from the top. 
 But if you set the margin-top property to 50px, all the elements below this particular element are also shifted down by 50px.
 
-5) Z-index:
+5) Z-index: (doesn't work with static)
 Sometimes, we want to overlap one element over another. We can achieve this with position:relative, but which element appears in front or at the back can be difficult to manage.
 The element with a lower z-index value goes behind the one with a higher z-index:
 
