@@ -20,5 +20,6 @@ div {
 }
 
 * Background --> Padding --> Content = Total size of the box!
+* Final = content + left padding + right Padding + left Border + right Border 
 
 2) 
