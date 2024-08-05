@@ -1,0 +1,105 @@
+HTML: 
+<div class="container">
+    <div class="introduction">
+        <h1 class="main-heading">Check out Popular Movies</h1>
+        <p class="description">
+            Discover a collection of popular movies with our movie card showcase. Each card
+            provides
+            a glimpse into the world of cinema, featuring details about the movie and options to watch. Dive into
+            the
+            cinematic experience now!
+        </p>
+    </div>
+    <div class="card-list">
+        <div class="card">
+            <a href="#">
+                <img class="poster" src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/movie-card-image_dvylM7uXod.avif" alt="Movie Poster">
+            </a>
+            <a href="#">
+                <p class="movie-name">Movie 1</p>
+            </a>
+            <button class="watch-option" type="button"> Watch Options </button>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img class="poster" src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/movie-card-image_dvylM7uXod.avif" alt="Movie Poster">
+            </a>
+            <a href="#">
+                <p class="movie-name">Movie 2</p>
+            </a>
+            <button class="watch-option" type="button"> Watch Options </button>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img class="poster" src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/movie-card-image_dvylM7uXod.avif" alt="Movie Poster">
+            </a>
+            <a href="#">
+                <p class="movie-name">Movie 3</p>
+            </a>
+            <button class="watch-option" type="button"> Watch Options </button>
+        </div>
+    </div>
+</div>
+
+CSS:
+/* Base styles for the container */
+.container {
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+}
+
+/* Introduction section styles */
+.introduction {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    font-size: 24px;
+    color: #333;
+}
+
+.description {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Movie card styles */
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.movie-name {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-family: roboto;
+}
+
+.watch-option {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
