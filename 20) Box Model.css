@@ -19,7 +19,7 @@ div {
   margin: 30px;
 }
 
-* Background --> Padding --> Content = Total size of the box!
+* Content --> Padding  --> Background = Total size of the box!
 * Final = content + left padding + right Padding + left Border + right Border 
 
 2) 
