@@ -46,3 +46,16 @@ a {
   line-height: 50px;
   margin-top: 50px;
 }
+
+4) Display None:
+
+HTML:
+<span id="span1">You cannot see me</span>
+<span id="span2">You can see me</span>
+
+CSS:
+#span1 {
+  display: none;
+}
+
+5) 
