@@ -6,6 +6,8 @@ But elements like span and a do not create a new line and only take up as much s
 This behavior is set by the element's display property.
 
 We can make elements like span, a, and img behave like block-level elements by setting their display property to block:
+
+CSS:  
 p {
   background-color: yellow;
   margin-top: 30px;
@@ -15,3 +17,19 @@ span, a {
   background-color: orange;
   margin-top: 30px;
 }
+
+2) Display Inline:
+The span, a, and img elements have their display set to inline by default. These elements do not start on a new line and take up only as much space as required.
+
+CSS:
+li {
+    display: inline;
+
+}
+a {
+  padding: 10px;
+}
+
+*For inline elements, we cannot specify width or height. Also, vertical margins do not have any effect*
+
+3) 
