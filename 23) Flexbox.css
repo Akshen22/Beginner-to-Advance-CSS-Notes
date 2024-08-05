@@ -83,3 +83,40 @@ CSS:
   padding: 30px 90px;
   margin: 5px;
 }
+
+4) Justify Content:
+By default, we saw that the flex items are placed at the beginning of the container depending on the flex direction, with least spacing between the items.
+In the case of row-reverse, the items begin from the right. With column, from the top, and with column-reverse, from the bottom.
+The justify-content property is used to change this behavior. We can use the values flex-start, flex-end, center, space-between, space-around and space-evenly:
+
+CSS:
+.container {
+  display: flex;
+  padding: 10px;
+  background-color: beige;
+}
+.container > div {
+  background-color: orange;
+  padding: 20px;
+  margin: 5px;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+.between {
+  justify-content: space-between;
+}
+.around {
+  justify-content: space-around;
+}
+.evenly {
+  justify-content: space-evenly;
+}
+
+(https://courses.bigbinaryacademy.com/learn-css/flexbox/justify-content/)
