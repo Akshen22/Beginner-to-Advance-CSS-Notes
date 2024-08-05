@@ -72,3 +72,25 @@ div {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+c) We can also specify the exact width and height in pixels or percentages:
+
+div {
+  padding: 60px;
+  background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=200');
+
+  /* Width and height separated by a space */
+  background-size: 300px 100px;
+  background-repeat: no-repeat;
+}
+
+d) If only one value is specified, the width is set to that value and height is auto-adjusted:
+
+div {
+  padding: 60px;
+  background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=200');
+
+  /* Width is 60% */
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
