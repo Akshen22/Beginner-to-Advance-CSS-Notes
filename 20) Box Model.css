@@ -22,4 +22,37 @@ div {
 * Content --> Padding  --> Background = Total size of the box!
 * Final = content + left padding + right Padding + left Border + right Border 
 
-2) 
+2) Box Sizing:
+a) Let us consider a situation in which we want the HTML element to strictly occupy a space of 300px.
+Additionally, we want the element to have a padding of 10px and a border of 1px.
+b) In this situation, we will have to carefully calculate and subtract the width of padding and border from both the left as well as right side of the element.
+This makes the process complicated. CSS offers an alternative to the standard box model with the property box-sizing.
+c) By default, the value of this property is content-box, this is the standard CSS box model we learnt in the previous lesson.
+d) When we set this to border-box, the alternate model is followed.
+We will learn more about the border-box property ahead!
+
+3) Box Sizing- Border Box:
+When an element has box-sizing: border-box, it changes the default behavior of how the browser calculates the total width and height of the element.
+The width and height properties will include the content, padding, and border of the element.
+Let us take a look at an example:
+
+HTML:
+<div>
+  Superman
+</div>
+
+CSS:
+div {
+  background-color: green;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  color: lightblue;
+  border: solid 20px darkgreen;
+  margin: 30px;
+  box-sizing: border-box
+}
+
+*box-sizing:border-box :- automatically calculates total width & height and makes the box!
+
+4) 
