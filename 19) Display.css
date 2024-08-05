@@ -1,0 +1,5 @@
+The heading elements - h1 to h6, header, footer, section and form, div and p elements have their default display set to block.
+And so they always start on a new line, and stretch to completely fit in the available width. 
+But elements like span and a do not create a new line and only take up as much space as needed.
+This behaviour is set by the elements' display property.
+
