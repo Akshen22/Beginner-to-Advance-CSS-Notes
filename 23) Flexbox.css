@@ -67,3 +67,19 @@ CSS:
   flex-direction: column-reverse;
   min-height:200px;
 }
+
+3) Flex Wrap:
+By default, flexbox tries to fit all the child elements in a row or column depending on the flex direction.
+So, if the flex items' width exceeds the parent element's width, we will see a horizontal scrollbar.
+To avoid this, we can choose to wrap the elements by pushing them to the next row/column using the flex-wrap property:
+
+CSS:
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div {
+  background-color: orange;
+  padding: 30px 90px;
+  margin: 5px;
+}
