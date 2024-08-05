@@ -1,4 +1,5 @@
-1) The heading elements - h1 to h6, header, footer, section and form, div and p elements have their default display set to block.
+1) Display Blocks:
+The heading elements - h1 to h6, header, footer, section and form, div and p elements have their default display set to block.
 And so they always start on a new line and stretch to completely fit in the available width. 
 Block elements start on a new line, occupy 100% of width by default, and can have height, and width properties, and also have functional margins on all four sides.
 
