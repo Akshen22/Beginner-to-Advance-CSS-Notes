@@ -41,3 +41,31 @@ The default value is auto. Values can be specified in relative or absolute units
 #three {
   flex-basis: 50%;
 }
+
+
+3) Flex Shorthand Property:
+You can set flex-grow, flex-shrink, and flex-basis with one single shorthand flex property.
+
+flex 2 1 40%
+
+4) Flex Order:
+By default, flex items are displayed in the same order they appear in the HTML code.
+We can change the order using the order property for the flex item, without even changing the HTML.
+The value can be any number. The default is 0. The higher the number, the later the element appears in the layout:
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div {
+  background-color: orange;
+  padding: 30px;
+  margin: 5px;
+  text-align: center;
+}
+#one {
+  order: 2;
+}
+#two {
+  order: 1;
+}
