@@ -1,0 +1,36 @@
+6) Align Items: (to align the items in the other direction)
+While justify-content allows us to change the placement and spacing of the items in one direction, we would also want to align the items in the other direction.
+For example, with column direction, the items stretch to the full width of the container. Stretching is the default behaviour and this can be changed using the align-items property:
+
+CSS:
+.container {
+  display: flex;
+  padding: 10px;
+  background-color: beige;
+  min-height: 150px;
+}
+.container > div {
+  background-color: orange;
+  padding: 20px;
+  margin: 5px;
+}
+.container > div:nth-child(2) {
+  font-size: 2em;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.flex-end {
+  align-items: flex-end;
+}
+.center {
+  align-items: center;
+}
+.baseline {
+  align-items: baseline;
+}
+.stretch {
+  align-items: stretch; /* Default */
+}
+
+7) 
