@@ -33,4 +33,63 @@ CSS:
   align-items: stretch; /* Default */
 }
 
-7) 
+7) Align-Self:
+When you want only one flex item to be aligned differently from the rest, you can use the align-self property.
+But, unlike the previous properties that were applied to the container, this property has to be applied directly to that particular child element:
+
+CSS:
+.container {
+  display: flex;
+  height: 200px;
+}
+.container > div {
+  padding: 20px;
+  margin: 5px;
+  background-color: orange;
+}
+.last {
+  align-self: end;
+}
+
+8) Flex Grow:
+Even though there's space on the right, the items only occupy as much space as needed. Sometimes, you might want one or all of the items to occupy this extra space available. 
+That's when you can use the flex-grow property on individual flex items to specify a number.
+The default value is 0, which is why the items occupy only as much space as required. When the value is more than 0 for some items, the extra space is divided proportionally among those items.
+
+HTML:
+<div class="container">
+  <p class="p1">Sun</p>
+  <p class="p2">The Sun is the star at the center of the Solar System.</p>
+</div>
+
+CSS:
+.container {
+  display: flex;
+}
+p {
+  background-color: #f1f1f8;
+  padding: 10px;
+  border: 1px solid #a1a1a1;
+}
+.p1 {
+  flex-grow: 1;
+}
+.p2 {
+  flex-grow: 2;
+}
+
+a) Equal distribution:
+.p1,.p2, .p3 {
+  flex-grow: 1;
+}
+
+b) Unequal distribution:
+.p1 {
+  flex-grow: 1;
+}
+.p2, .p3 {
+  flew-grow: 2
+}
+
+c) Similarly, "no growth"!
+
