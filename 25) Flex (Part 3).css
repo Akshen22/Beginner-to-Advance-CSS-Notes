@@ -1,1 +1,43 @@
+1) Flex Shrink:
+When the flex items don't wrap, they try to shrink as much as possible to fit into the available space.
+Using the flex-shrink property, we can control how much each item shrinks. The value can be any number. If the value is 0, the item does not shrink.
+The higher the value, the more the item shrinks!
 
+.container {
+  display: flex;
+}
+.container > div {
+  padding: 30px;
+  margin: 10px;
+  width: 33%;
+  background-color: orange;
+}
+.shrink {
+  flex-shrink: 2;
+}
+.shrink-more {
+  flex-shrink: 5;
+}
+
+2) Flex Basis:
+With flex-grow and flex-shrink, we saw that we can control how much each flex item grows or shrinks.
+With the flex-basis property, we can set the initial size of the item. It's possible to set this with the width property too, but flex-basis is a better way to do the same, for flex items. 
+The default value is auto. Values can be specified in relative or absolute units:
+
+.container {
+  display: flex;
+}
+.container > div {
+  padding: 30px;
+  margin: 10px;
+  background-color: orange;
+}
+#one {
+  flex-basis: 50px;
+}
+#two {
+  flex-basis: 50%;
+}
+#three {
+  flex-basis: 50%;
+}
