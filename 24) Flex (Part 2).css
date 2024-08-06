@@ -1,4 +1,4 @@
-6) Align Items: (to align the items in the other direction)
+6) Align Items: (to align the items in the other direction & stretch)
 While justify-content allows us to change the placement and spacing of the items in one direction, we would also want to align the items in the other direction.
 For example, with column direction, the items stretch to the full width of the container. Stretching is the default behaviour and this can be changed using the align-items property:
 
