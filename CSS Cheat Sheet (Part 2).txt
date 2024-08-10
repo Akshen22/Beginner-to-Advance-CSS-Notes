@@ -1,0 +1,237 @@
+*CSS: Cheat Sheet Part 2: Borders to 
+
+8) Borders:
+The border properties in CSS are used to create borders around an HTML element. We can control the width, color and the general styling of the border using these properties.
+
+a) border-style: used to identify the type of border! (bit similar to text-decoration style)
+i) type: none, sold, dashed, dotted, double, groove, ridge, inset, outset
+syntax: border-style: groove;
+
+ii) shorthand values:
+a) 4 values: border-style: solid dotted dashed ridge; (top right bottom left) 
+b) 3 values: border-style: solid dashed ridge; (top, right & bottom, left) 
+c) 2 values: border-style: solid ridge; (top & bottom, right & left) 
+d) 1 values: border-style: dotted; (all sides) 
+
+b) border-width: used to specify the thickness of the borders. (similar to font-weight)
+i) For specifying values, we can use the standard absolute or relative units or we can use values like: thin, medium, or thick.
+When this property is not set, a medium border appears by default.
+syntax: border-width: medium;
+
+ii) shorthand values:
+4 values: border-width: 2px 4px thick 8px; (top right bottom left)
+similarly, rest 3!
+
+c) border-color: used to specify the color of the borders using color names or RGB or HEX values.
+i) When the property is not set, the border takes the value of the element's color property.
+   The default value for color is black.
+   The border color can also be set to transparent.
+
+ii) shorthand values:
+4 values: border-color: grey red blue green; (top right bottom left)
+similarly, rest 3!
+
+d) Border Sides: Can make the border solid, thin, of green colors at once!
+How?
+--> i) border-top: dashed 7px purple;
+ii) border-right: groove 5px blue;
+iii) border-left: double 4px green;
+iv) border-bottom: ridge 2px white;
+v) border: dotted 1px grey; (border-style value is required, colour and width are optional)
+
+e) Rounded corners:
+i) When you need rounded corners instead of the default sharp corners, you can use the "border-radius" property.
+
+ii) A square can be turned into a circle and a rectangle into an oval, if we give border-radius the value 50%.
+As you can see in the above example, border-radius can be used with or without the border property.
+
+iii) syntax: border-radius: 15px; border-radius: 50%;
+
+iv) Shorthand values:
+4 values: border-radius: 40% 10px 0px 100%; (top-left top-right bottom-right bottom-left)
+similarly, rest 3!
+
+Individual: 
+a) border-top-left-radius: 40px
+b) border-top-right-radius: 40%
+c) border-bottom-left-radius: 50%
+d) border-bottom-left-radius: 10%
+
+
+9) Background:
+
+a) background-color:
+Color can be specified using color names, HEX values, or RGB values.
+
+body {
+  background-color: teal;
+}
+p {
+  background-color: #f0fdfa;
+  padding: 20px;
+}
+
+b) background-image:
+An image can be added to the background of any element using the background-image property.
+
+body {
+  background-image: url('https://images.pexels.com/photos/4913167/pexels-photo-4913167.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600');
+  padding: 30px;
+  color: white;
+}
+
+*In the above example, we used a large image. But if the image is smaller than the size of the element, the image repeats itself to cover the entire space*
+
+c) background-repeat:
+i) no-repeat:
+body {
+  padding: 60px;
+  background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=150');
+  background-repeat: no-repeat;
+}
+
+ii) repeat-x: horizontal direction!
+syntax: background-repeat: repeat-x;
+
+iii) repeat-y: vertical direction!
+syntax: background-repeat: repeat-y;
+
+iv) repeat: (to repeat)
+syntax: background-repeat: repeat
+
+d) background-size:
+i) cover: the image stretches or scales down in size to fill the entire container!
+syntax: background-size: cover;
+If you resize the window, you can see that the image is either cropped at the bottom or at the right, will use: contain.
+
+ii) contain: for the image to be fully visible!
+syntax: background-size: contain
+ 
+iii) Can also specify the exact width and height in pixels or percentages:
+syntax: background-size: 300px 100px;
+
+iv) If only 1 value is specified, the width is set to that value and height is auto-adjusted:
+syntax: background-size: 50%;
+
+v) auto: background-size: auto;
+
+e) background-position:
+By default, the background image starts at the top left corner of its HTML element. This can be changed using the background-position property.
+
+i) keyword: 2 key values are needed; from: top, bottom, center, right, left
+syntax: background-position: right top;
+but using this, the image is been put to extreme points, will use px & % for better control!
+
+ii) numeric:
+background-image: 20px 70%;
+
+
+10) Display:
+
+a) block:
+i) pre-build block elements: h1 to h6, header, footer, section, form, div, p
+Start on a new line, take up 100% of the available width, and can have height and width properties. They also have margins on all sides! 
+But inline elements: span, a, img do not start on a new line and only take up as much width as needed. So, will use: block!
+
+ii) syntax: display: block;
+
+b) inline: to put in 1 single line for block elements (h1-h6, p, etc..)!
+--> display: inline;
+inline elements (scan, img, a) we cannot specify width or height. Also, vertical margins do not have any effect, so will use: "inline-block!
+
+c) inline-block: 
+Sometimes it's helpful to have elements display in the same line but also behave like block-level elements with specified height and width and so this can be achieved with the display value of inline-block!
+--> display: inline-block;
+
+11) Box Model:
+<div>
+  Milky Way
+</div>
+
+CSS:
+div {
+  background-color: lightgreen;
+  width: 250px;
+  height: 150px;
+  padding: 50px;
+  border: solid 40px darkgreen;
+  margin: 30px;
+}
+
+We created a box using various CSS properties, listed above!
+Hack: content --> right padding & left padding --> left border & right border!
+
+
+Sometimes, we need to fill the px manually which is bit difficult; so for that will use: box-sizing: border-box!
+
+Helps us to resize the content with the box automatically, calculating total width & height!
+
+
+12) Position:
+By default, all the HTML elements appear on the web page one after another in the same order as specified in the HTML markup. 
+We can change this with the help of the CSS position property.
+
+i) Types:
+a) Relative: moves from its original place according to the given value
+
+b) Absolute: moves from its distance between parents place
+
+c) Fixed: changes its place as said but gonna stay there forever won't move when scrolled
+
+d) Sticky: initially behaves like a relative element and moves with the flow of the document but when you scroll past it, it sticks to the top of its container (or viewport if no container is defined) and remains there until the parent container is out of view. mixture of relative & absolute!
+
+e) Static: just get shifted as asked by users!
+
+syntax: position: ____;
+
+ii) offset: used to make the particular position according to the size we want, does works with both +ve & -ve values! 
+
+Example:
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0F766E;
+  color: white;
+  position: relative;
+  top: 15px;
+}
+.card {
+  padding: 20px;
+  background-color: #CCFBF1;
+}
+syntax: 20px
+
+
+iii) offset vs margin:
+When you set the top property of a relative element to 50px, only that element is shifted by 50px from the top. 
+But if you set the margin-top property to 50px, all the elements below this particular element are also shifted down by 50px.
+
+iv) Z-index: (doesn't work with static)
+Sometimes, we want to overlap one element over another. We can achieve this with position:relative, but which element appears in front or at the back can be difficult to manage.
+The element with a lower z-index value goes behind the one with a higher z-index stays in front!
+
+v) inset property: (basically useful for offset)
+syntax: 10px 15px 40px 32px (top right bottom left) 
+
+can also make it: auto!
+syntax: auto 10px 0px auto
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
