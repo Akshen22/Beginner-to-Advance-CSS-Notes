@@ -182,6 +182,9 @@ to implement this; select & write a line type, style type first & later it's col
 iv) Shorthand Property: Combines line, style, and color in a single declaration.
 text-decoration: underline dotted red;
 
+v) Create space between words and underline:
+syntax: text-underline-offset: 2.5px;
+
 d) line-height: (leaves space between 2 lines)
 i) If you set line-height to a number like 1.5, it means the space between lines will be 1.5 times the size of the text.
 
