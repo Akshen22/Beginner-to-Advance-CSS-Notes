@@ -200,8 +200,8 @@ f) font-size: modify the size of any text!
 syntax: font-size: 18px; font-size: 200%; font-size: 20em; font-size: 30rem; font-size: 29vh; font-size: 35vw; font-size: small; font-size: medium; font-size: large
 
 
-g) font-weight: used to make text bolder or lighter!
-i) keyword: font-size: normal, font-size: bold, font-size: bolder, font-size: lighter
+g) font-weight: used to make the text bolder or lighter!
+i) keyword: font-weight: normal, font-weight: bold, font-weight: bolder, font-weight: lighter
 
 ii) numeric: The range typically goes from 100 (thin) to 900 (extra bold)
 (note: 400: normal, 700: bold)
