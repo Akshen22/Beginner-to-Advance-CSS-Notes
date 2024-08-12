@@ -1,0 +1,227 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 86, 126);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navbar */
+.header {
+    background-color: rgb(27, 86, 126);
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    gap: 15px;
+}
+
+.menu ul li a {
+  display: flex;
+  gap: 15px;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(59, 152, 76);
+}
+
+.actions ul {
+    display: flex;
+    gap: 10px;
+}
+
+.actions ul li a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(27, 86, 126);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.actions ul li a:hover {
+    background-color: orange;
+}
+
+.actions .cta-button {
+    background-color: #00b3ff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.actions .cta-button:hover {
+    background-color: #00ff04;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2a74be;
+    color: #ffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-image-container {
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero .cta-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #00b3ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .cta-button:hover {
+    background-color: #00ff04;
+}
+
+/* About Section */
+.about {
+    background-color: #57a9fa;
+    color: white;
+    max-width: 1200px;    
+    height: auto;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #2a74be;
+    border-width: 0px 350px 30px 350px;
+}
+
+.about h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+    max-width: 1200px;    
+}
+
+.about p {
+    text-align: left;
+    font-size: 18px;
+    max-width: 1200px;    
+    margin: auto;
+}
+
+/* Services Section */
+.services {
+    background-color: #57a9fa;
+    color: white;
+    max-width: 1200px;    
+    height: auto;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #2a74be;
+    border-width: 0px 350px 30px 350px;
+}
+
+.services h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: disc; /* Ensures bullets are displayed */
+    text-align: left;
+    max-width: 1200px;    
+    margin: auto;
+    padding-left: 20px;
+}
+
+.services ul li {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #57a9fa;
+    color: white;
+    max-width: 1200px;    
+    height: auto;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #2a74be;
+    border-width: 0px 350px 30px 350px;
+}
+
+.contact h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    text-align: left;
+    font-size: 18px;
+    max-width: 1200px;    
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(27, 86, 126);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
