@@ -3,187 +3,164 @@
 Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensive syllabus covering everything you need to become proficient in CSS. Whether you're a beginner or looking to advance your skills, this guide is tailored for you. 🌐
 
 ## 📚 Table of Contents: Jump into CSS
-1. [Introduction to CSS](#intro-to-css)
-3. [Selectors](#selectors)
-4. [Colors](#colors)
-5. [Div Element](#div-element)
-6. [Dimensions and Units](#dimensions-and-units)
-7. [Debugging with CSS](#debugging-with-css)
-8. [Restricting Height and Width](#restricting-height-and-width)
-9. [Spacing](#spacing)
-10. [Text Formatting](#text-formatting)
-11. [Borders](#borders)
-12. [Backgrounds](#backgrounds)
-13. [Display](#display)
-14. [Box Model](#box-model)
-15. [Position](#position)
-16. [Flexbox](#flexbox)
-17. [Opacity](#opacity)
-18. [Box Shadow](#box-shadow)
-19. [Projects 1](#projects-1)
-20. [CSS Reset](#css-reset)
-21. [Styling Links](#styling-links)
-22. [Styling Lists](#styling-lists)
-23. [Styling Forms](#styling-forms)
-24. [Combinators](#combinators)
-25. [Pseudo-classes](#pseudo-classes)
-26. [Pseudo-elements](#pseudo-elements)
-27. [Cascade and Specificity](#cascade-and-specificity)
-28. [Variables](#variables)
-29. [Nesting](#nesting)
-30. [Web Page Layouts](#web-page-layouts)
-31. [Responsive Web Design](#responsive-web-design)
-32. [Grid](#grid)
-33. [Default Values](#default-values)
-34. [Resolving Errors](#resolving-errors)
-35. [Styling Tables](#styling-tables)
-36. [Projects 2](#projects-2)
-37. [Float](#float)
+Here's the updated syllabus with the correct Table of Contents:
 
-## 📖 Introduction to CSS
-- What is CSS?
-- How CSS Works with HTML
-- CSS Syntax
-- Including CSS in HTML: Inline, Internal, and External Stylesheets
+---
 
-## 🎯 Selectors
-- Basic Selectors: Element, Class, ID
-- Attribute Selectors
-- Pseudo-classes and Pseudo-elements
+**📚 Table of Contents: Jump into CSS**
 
-## 🎨 Colors
-- Color Names, Hex Codes, RGB, HEXA, HSL
-- Applying Colors to Elements
+1. **📖 Introduction to CSS**
+   - What is CSS?
+   - How CSS Works with HTML
+   - CSS Syntax
+   - Including CSS in HTML: Inline, Internal, and External Stylesheets
 
-## 📦 Div Element
-- Using the Div Element
-- Grouping HTML Elements with Div
+2. **🎯 Selectors**
+   - Basic Selectors: Element, Class, ID
+   - Attribute Selectors
+   - Pseudo-classes and Pseudo-elements
 
-## 📏 Dimensions and Units
-- Width, Height, Max-width, Min-width
-- Units: px, %, em, rem, vw, vh
+3. **🎨 Colors**
+   - Color Names, Hex Codes, RGB, HEXA, HSL
+   - Applying Colors to Elements
 
-## 🛠️ Debugging with CSS
-- Common Debugging Techniques
-- Developer Tools
+4. **📦 Div Element**
+   - Using the Div Element
+   - Grouping HTML Elements with Div
 
-## 📐 Restricting Height and Width
-- Min-height, Max-height, Min-width, Max-width
+5. **📏 Dimensions and Units**
+   - Width, Height, Max-width, Min-width
+   - Units: px, %, em, rem, vw, vh
 
-## 📏 Spacing
-- Margin, Padding
-- Understanding the Box Model
+6. **🛠️ Debugging with CSS**
+   - Common Debugging Techniques
+   - Developer Tools
 
-## ✍️ Text Formatting
-- Font Properties: Font-family, Font-size, Font-weight, etc.
-- Text Properties: Text-align, Text-decoration, Text-transform, etc.
+7. **📐 Restricting Height and Width**
+   - Min-height, Max-height, Min-width, Max-width
 
-## 🔲 Borders
-- Border Properties: Border-width, Border-style, Border-color, etc.
-- Rounded Borders: Border-radius
+8. **📏 Margin**
+   - Understanding Margins
+   - Setting Margin Values
 
-## 🖼️ Backgrounds
-- Background Properties: Background-color, Background-image, Background-size, etc.
-- Applying Gradients
+9. **📏 Padding**
+   - Understanding Padding
+   - Setting Padding Values
 
-## 📺 Display
-- Display Types: none, block, inline, inline-block, etc.
-- Visibility Property
+10. **✍️ Text Formatting**
+    - Font Properties: Font-family, Font-size, Font-weight, etc.
+    - Text Properties: Text-align, Text-decoration, Text-transform, etc.
 
-## 📦 Box Model
-- Understanding the Box Model
-- Content, Padding, Border, and Margin
+11. **🔲 Borders**
+    - Border Properties: Border-width, Border-style, Border-color, etc.
+    - Rounded Borders: Border-radius
 
-## 📍 Position
-- Static, Relative, Absolute, Fixed, and Sticky Positioning
-- Z-index and Stacking Context
+12. **🖼️ Backgrounds**
+    - Background Properties: Background-color, Background-image, Background-size, etc.
+    - Applying Gradients
 
-## 📏 Flexbox
-- Flex Container and Flex Items
-- Flexbox Properties: justify-content, align-items, flex-wrap, etc.
-- Building Responsive Layouts with Flexbox
+13. **📺 Display**
+    - Display Types: none, block, inline, inline-block, etc.
+    - Visibility Property
 
-## 🌫️ Opacity
-- Opacity Property
-- RGBA and HSLA for Transparency
+14. **📦 Box Model**
+    - Understanding the Box Model
+    - Content, Padding, Border, and Margin
 
-## 🕶️ Box Shadow
-- Adding Shadows to Elements
-- Box-shadow Property
+15. **📍 Position**
+    - Static, Relative, Absolute, Fixed, and Sticky Positioning
+    - Z-index and Stacking Context
 
-## 💼 Projects 1
-- Practical Projects to Apply CSS Skills
+16. **📏 Flexbox**
+    - Flex Container and Flex Items
+    - Flexbox Properties: justify-content, align-items, flex-wrap, etc.
+    - Building Responsive Layouts with Flexbox
 
-## 🧹 CSS Reset
-- Importance of CSS Reset
-- Popular CSS Reset Libraries
+17. **🌫️ Opacity**
+    - Opacity Property
+    - RGBA and HSLA for Transparency
 
-## 🔗 Styling Links
-- Link States: Normal, Hover, Active, and Visited
-- Styling Techniques for Links
+18. **🕶️ Box Shadow**
+    - Adding Shadows to Elements
+    - Box-shadow Property
 
-## 📋 Styling Lists
-- Unordered and Ordered Lists
-- Customizing List Styles
+19. **💼 Projects 1**
+    - Practical Projects to Apply CSS Skills
 
-## 📝 Styling Forms
-- Input Fields, Textareas, Buttons, and More
-- Form Layout and Design
+20. **🧹 CSS Reset**
+    - Importance of CSS Reset
+    - Popular CSS Reset Libraries
 
-## 🧩 Combinators
-- Descendant, Child, Sibling, and General Sibling Combinators
+21. **🔗 Styling Links**
+    - Link States: Normal, Hover, Active, and Visited
+    - Styling Techniques for Links
 
-## 🎭 Pseudo-classes
-- Common Pseudo-classes: :hover, :focus, :nth-child, etc.
+22. **📋 Styling Lists**
+    - Unordered and Ordered Lists
+    - Customizing List Styles
 
-## 🎨 Pseudo-elements
-- Common Pseudo-elements: ::before, ::after, ::first-letter, etc.
+23. **📝 Styling Forms**
+    - Input Fields, Textareas, Buttons, and More
+    - Form Layout and Design
 
-## 🗂️ Cascade and Specificity
-- Understanding CSS Cascade
-- Calculating Specificity
+24. **🧩 Combinators**
+    - Descendant, Child, Sibling, and General Sibling Combinators
 
-## 🛠️ Variables
-- Defining and Using CSS Variables
-- Scoped and Global Variables
+25. **🎭 Pseudo-classes**
+    - Common Pseudo-classes: :hover, :focus, :nth-child, etc.
 
-## 🗂️ Nesting
-- Nested Rules in CSS
-- Benefits and Best Practices
+26. **🎨 Pseudo-elements**
+    - Common Pseudo-elements: ::before, ::after, ::first-letter, etc.
 
-## 🖥️ Web Page Layouts
-- Creating Layouts with CSS
-- Common Layout Patterns
+27. **🗂️ Cascade and Specificity**
+    - Understanding CSS Cascade
+    - Calculating Specificity
 
-## 📱 Responsive Web Design
-- Media Queries
-- Responsive Units: %, em, rem, vw, vh
-- Mobile-First Design
+28. **🛠️ Variables**
+    - Defining and Using CSS Variables
+    - Scoped and Global Variables
 
-## 📐 Grid
-- Grid Container and Grid Items
-- Grid Template Areas, Rows, and Columns
-- Grid Gap and Alignment
+29. **🗂️ Nesting**
+    - Nested Rules in CSS
+    - Benefits and Best Practices
 
-## 🛠️ Default Values
-- Default Property Values
-- Overriding Defaults
+30. **🖥️ Web Page Layouts**
+    - Creating Layouts with CSS
+    - Common Layout Patterns
 
-## 🚫 Resolving Errors
-- Common CSS Errors
-- Troubleshooting Techniques
+31. **📱 Responsive Web Design**
+    - Media Queries
+    - Responsive Units: %, em, rem, vw, vh
+    - Mobile-First Design
 
-## 📋 Styling Tables
-- Table Elements: Table, Tr, Th, Td
-- Table Design and Layout
+32. **📐 Grid**
+    - Grid Container and Grid Items
+    - Grid Template Areas, Rows, and Columns
+    - Grid Gap and Alignment
 
-## 💼 Projects 2
-- Advanced Projects to Showcase CSS Skills
+33. **🛠️ Default Values**
+    - Default Property Values
+    - Overriding Defaults
 
-## 🌊 Float
-- Floating Elements
-- Clearing Floats
-- Float-based Layouts
+34. **🚫 Resolving Errors**
+    - Common CSS Errors
+    - Troubleshooting Techniques
+
+35. **📋 Styling Tables**
+    - Table Elements: Table, Tr, Th, Td
+    - Table Design and Layout
+
+36. **💼 Projects 2**
+    - Advanced Projects to Showcase CSS Skills
+
+37. **🌊 Float**
+    - Floating Elements
+    - Clearing Floats
+    - Float-based Layouts
+
+---
+
+This syllabus structure organizes the topics clearly and specifies the margin and padding as separate sections.
 
 ## 🔗 Getting Started
 To get started with the CSS Mastery Syllabus, clone this repository:
