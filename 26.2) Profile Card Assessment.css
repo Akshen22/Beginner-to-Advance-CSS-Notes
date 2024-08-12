@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contents {
+  background-color: hsl(192, 15%, 94%);
+  width: 58vh;
+  height: 680px;
+  border-radius: 200px 200px  0% 0%;
+  margin-top: 5px;
+}
+
+img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.heading {
+  text-decoration: underline ;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  font-size: 50px;
+  font-weight: 276;
+  font-family: 'Roboto', sans-serif;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: black;
+  color: white; 
+}
+
+.follow {
+  cursor: pointer;
+  background-color: green;
+}
+
+.remove {
+  cursor: pointer;
+  background-color: red;
+}
