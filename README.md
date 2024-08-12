@@ -2,11 +2,6 @@
 
 Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensive syllabus covering everything you need to become proficient in CSS. Whether you're a beginner or looking to advance your skills, this guide is tailored for you. 🌐
 
-## 📚 Table of Contents: Jump into CSS
-Here's the updated syllabus with the correct Table of Contents:
-
----
-
 **📚 Table of Contents: Jump into CSS**
 
 1. **📖 Introduction to CSS**
