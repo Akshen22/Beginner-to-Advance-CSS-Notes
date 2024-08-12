@@ -79,83 +79,73 @@ Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensiv
     - Adding Shadows to Elements
     - Box-shadow Property
 
-19. **💼 Projects 1**
-    - Practical Projects to Apply CSS Skills
-
-20. **🧹 CSS Reset**
+19. **🧹 CSS Reset**
     - Importance of CSS Reset
     - Popular CSS Reset Libraries
 
-21. **🔗 Styling Links**
+20. **🔗 Styling Links**
     - Link States: Normal, Hover, Active, and Visited
     - Styling Techniques for Links
 
-22. **📋 Styling Lists**
+21. **📋 Styling Lists**
     - Unordered and Ordered Lists
     - Customizing List Styles
 
-23. **📝 Styling Forms**
+22. **📝 Styling Forms**
     - Input Fields, Textareas, Buttons, and More
     - Form Layout and Design
 
-24. **🧩 Combinators**
+23. **🧩 Combinators**
     - Descendant, Child, Sibling, and General Sibling Combinators
 
-25. **🎭 Pseudo-classes**
+24. **🎭 Pseudo-classes**
     - Common Pseudo-classes: :hover, :focus, :nth-child, etc.
 
-26. **🎨 Pseudo-elements**
+25. **🎨 Pseudo-elements**
     - Common Pseudo-elements: ::before, ::after, ::first-letter, etc.
 
-27. **🗂️ Cascade and Specificity**
+26. **🗂️ Cascade and Specificity**
     - Understanding CSS Cascade
     - Calculating Specificity
 
-28. **🛠️ Variables**
+27. **🛠️ Variables**
     - Defining and Using CSS Variables
     - Scoped and Global Variables
 
-29. **🗂️ Nesting**
+28. **🗂️ Nesting**
     - Nested Rules in CSS
     - Benefits and Best Practices
 
-30. **🖥️ Web Page Layouts**
+29. **🖥️ Web Page Layouts**
     - Creating Layouts with CSS
     - Common Layout Patterns
 
-31. **📱 Responsive Web Design**
+30. **📱 Responsive Web Design**
     - Media Queries
     - Responsive Units: %, em, rem, vw, vh
     - Mobile-First Design
 
-32. **📐 Grid**
+31. **📐 Grid**
     - Grid Container and Grid Items
     - Grid Template Areas, Rows, and Columns
     - Grid Gap and Alignment
 
-33. **🛠️ Default Values**
+32. **🛠️ Default Values**
     - Default Property Values
     - Overriding Defaults
 
-34. **🚫 Resolving Errors**
+33. **🚫 Resolving Errors**
     - Common CSS Errors
     - Troubleshooting Techniques
 
-35. **📋 Styling Tables**
+34. **📋 Styling Tables**
     - Table Elements: Table, Tr, Th, Td
     - Table Design and Layout
 
-36. **💼 Projects 2**
-    - Advanced Projects to Showcase CSS Skills
-
-37. **🌊 Float**
+35. **🌊 Float**
     - Floating Elements
     - Clearing Floats
     - Float-based Layouts
-
----
-
-This syllabus structure organizes the topics clearly and specifies the margin and padding as separate sections.
 
 ## 🔗 Getting Started
 To get started with the CSS Mastery Syllabus, clone this repository:
