@@ -1,4 +1,4 @@
-1) Defination:
+1) Definition:
 The opacity property is used to define transparency for elements.
 You can specify any value between 0.0 and 1.0.
 Here, 0 is fully transparent, 0.5 is semi-transparent and 1 is fully opaque.
@@ -33,9 +33,19 @@ CSS:
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-3) 
+3) Opacity using hsla:
+HTML:
+<div class="box"></div>
 
+CSS:
+.box{
+  height: 150px;
+  width: 200px;
+  margin: 50px auto;
+  background-color: hsla(0px, 100%, 50%, 0.5);
+}
 
+4) 
 
 
 
