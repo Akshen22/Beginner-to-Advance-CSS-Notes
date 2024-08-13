@@ -1,16 +1,48 @@
-1) Overview:
-Box Shadow is used to raise and keep it more interesting which happens due to the added box shadow.
+1) offset-y (vertical) and offset-x (horizontal):
+The box-shadow property in CSS is used to create a shadow effect around an element. 
+To create a box-shadow, we need to provide at least two values offset-x and offset-y.
 
-syntax:
-.with-shadow {
-  box-shadow: 10px 15px 8px rgba(0, 0, 0, 0.4);
-  
+Example:
+HTML:
+<div id="container">
+  <div class="box"></div>
+</div>
+
+CSS:
+.box {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  background-color: coral;
+  box-shadow: 20px 25px;
 }
 
 Explanation: 
-a) 10px: top-left,
-b) 15px: bottom-right,
-c) 8px:
-d) rgba(0, 0, 0, 0.4): 
-i) All 0's: to transfer the shadow's colors,
-ii) 0.4: how much dark/light you want the shadow to be!
+a) 20px: offset-y, 
+b) 25px: offset-x
+
+2) negative offset:
+CSS:
+.right-downward-shadow {
+  box-shadow: 10px 0px;
+}
+
+.right-upward-shadow {
+  box-shadow: 10px -10px;
+}
+
+.left-downward-shadow {
+  box-shadow: -10px 10px;
+}
+
+.left-upward-shadow {
+  box-shadow: -10px -10px;
+}
+
+3) 
+
+
+
+
+
+
