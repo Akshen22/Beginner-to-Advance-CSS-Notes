@@ -74,7 +74,18 @@ Example:
   box-shadow: 50px 30px #98FB98;
 }
 
+4) Adding blur-radius to Shadow:
+The blur-radius value determines the degree of blurriness in the shadow. It is an optional property. 
+If the blur-radius value is not specified, it defaults to 0.
+
+Example:
+.high-blur-shadow {
+  box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+/*15px: blurs the shadow*/
+
 5) 
+
 
 
 
