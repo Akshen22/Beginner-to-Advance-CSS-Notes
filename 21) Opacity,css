@@ -1,0 +1,17 @@
+1) Defination:
+The opacity property is used to define transparency for elements.
+You can specify any value between 0.0 and 1.0.
+Here, 0 is fully transparent, 0.5 is semi-transparent and 1 is fully opaque.
+
+HTML:
+<button id="first">
+  Click me first
+</button>
+
+CSS:
+#first {
+opacity: 0.5
+}
+
+2) 
+
