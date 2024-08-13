@@ -1,4 +1,4 @@
-1) offset-y (vertical) and offset-x (horizontal):
+1) offset-x (horizontal) and offset-y (vertical):
 The box-shadow property in CSS is used to create a shadow effect around an element. 
 To create a box-shadow, we need to provide at least two values offset-x and offset-y.
 
@@ -18,8 +18,8 @@ CSS:
 }
 
 Explanation: 
-a) 20px: offset-y, 
-b) 25px: offset-x
+a) 20px: offset-x, 
+b) 25px: offset-y
 
 2) +ve & -ve offset:
 CSS:
