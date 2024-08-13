@@ -147,7 +147,28 @@ Example:
     0px 16px 56px rgba(0, 0, 0, 0.5);
 }
 
-7) 
+7) Adding Inner Shadow using inset:
+The inset keyword can be applied to the box-shadow property to create a shadow inside the element.
 
+syntax: box-shadow:
+           inset  offset-x offset-y blur-radius spread-radius color;
 
+Example:
+.inner-shadow {
+  box-shadow:
+    inset 10px 10px darkred,
+    inset -10px -10px darkblue;
+}
 
+.sunken-shadow {
+  box-shadow: 
+    inset 15px 15px teal,
+    inset 30px 30px darkgreen;
+}
+
+.sunrise-shadow {
+  background-color: aquamarine;
+  box-shadow:
+    inset 0px -16px 34px -16px rgba(0, 0, 0, 0.4),
+    inset 0px 28px 58px -10px;
+}
