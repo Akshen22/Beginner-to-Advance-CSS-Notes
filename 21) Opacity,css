@@ -18,11 +18,11 @@ The opacity of the div is set to 0.5, but the child elements h1 and p also becom
 This makes it hard to read the text.
 If we want the opacity to apply only to the background, we can specify the background color value using rgba instead of using RGB.
 
-2) Opacity using RGBA: (mainly used for parent & background)
+2) Opacity using RGBA: (mainly used for parent & setting background)
 syntax: rgba(red, green, blue, alpha)
 The alpha parameter sets the opacity. It takes in any value ranging from 0.0 to 1.0!
 
-
+3) 
 
 
 
