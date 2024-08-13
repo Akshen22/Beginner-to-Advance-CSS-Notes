@@ -91,12 +91,28 @@ Example:
 /*15px: blurs the shadow*/
 
 5) Adding spread-radius to Shadow:
-
+The spread-radius is used to adjust the size of the shadow effect.
+It accepts both positive and negative values. A positive value expands the shadow, while a negative value shrinks it. 
+It is an optional property, and if not specified, its value will be 0 by default.
 
 syntax: box-shadow: offset-x offset-y blur-radius spread-radius color;
 
 Example:
+.shadow-expand {
+  box-shadow: 10px 10px 10px 10px pink;
+}
 
+.shadow-enlarge {
+  box-shadow: 10px 10px 10px 20px orange;
+}
+
+.shadow-shrink {
+  box-shadow: -20px 20px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-collapse {
+  box-shadow: -20px -20px 10px -20px rgba(50, 50, 90, 0.25);
+}
 
 
 
