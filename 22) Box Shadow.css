@@ -2,6 +2,8 @@
 The box-shadow property in CSS is used to create a shadow effect around an element. 
 To create a box-shadow, we need to provide at least two values offset-x and offset-y.
 
+syntax: box-shadow: offset-x offset-y;
+
 Example:
 HTML:
 <div id="container">
@@ -43,6 +45,8 @@ CSS:
 We can add a color value to the box-shadow property. Specifying a color is optional. 
 The box-shadow will be black by default if we do not provide a color.
 
+syntax: box-shadow: offset-x offset-y blur-radius spread-radius color;
+
 Example:
 .pink-shadow {
   box-shadow: 10px 10px pink;
@@ -78,13 +82,20 @@ Example:
 The blur-radius value determines the degree of blurriness in the shadow. It is an optional property. 
 If the blur-radius value is not specified, it defaults to 0.
 
+syntax: box-shadow: offset-x offset-y blur-radius spread-radius color;
+
 Example:
 .high-blur-shadow {
   box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 /*15px: blurs the shadow*/
 
-5) 
+5) Adding spread-radius to Shadow:
+
+
+syntax: box-shadow: offset-x offset-y blur-radius spread-radius color;
+
+Example:
 
 
 
