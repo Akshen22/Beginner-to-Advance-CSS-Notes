@@ -21,7 +21,7 @@ Explanation:
 a) 20px: offset-y, 
 b) 25px: offset-x
 
-2) negative offset:
+2) +ve & -ve offset:
 CSS:
 .right-downward-shadow {
   box-shadow: 10px 0px;
