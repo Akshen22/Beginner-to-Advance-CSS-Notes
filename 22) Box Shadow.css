@@ -1,1 +1,16 @@
-1) 
+1) Overview:
+Box Shadow is used to raise and keep it more interesting which happens due to the added box shadow.
+
+syntax:
+.with-shadow {
+  box-shadow: 10px 15px 8px rgba(0, 0, 0, 0.4);
+  
+}
+
+Explanation: 
+a) 10px: top-left,
+b) 15px: bottom-right,
+c) 8px:
+d) rgba(0, 0, 0, 0.4): 
+i) All 0's: to transfer the shadow's colors,
+ii) 0.4: how much dark/light you want the shadow to be!
