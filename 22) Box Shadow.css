@@ -39,7 +39,7 @@ CSS:
   box-shadow: -10px -10px;
 }
 
-3) Adding colour to Shadow:
+3.1) Adding rgba color to Shadow:
 We can add a color value to the box-shadow property. Specifying a color is optional. 
 The box-shadow will be black by default if we do not provide a color.
 
@@ -64,8 +64,17 @@ Example:
 }
 /*offset-x, offset-y, color(red, green, blue, alpha(light/bold of shadow)*/
 
-4) 
+3.2) hex color to the shadow:
+Example:
+.rose-brown-shadow {
+  box-shadow: 20px 30px #AA7788;
+}
 
+.pale-green-shadow {
+  box-shadow: 50px 30px #98FB98;
+}
+
+5) 
 
 
 
