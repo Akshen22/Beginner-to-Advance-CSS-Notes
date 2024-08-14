@@ -88,8 +88,26 @@ Can create rounder border, using: border-radius: ;!
 We can set the text color and background color of text inputs using the color and background-color properties!
 /*If we don't specify any border color, the text color is applied to the border too.*/
 
-7) 
+7) Font and Font Size for Text Inputs:
+a) By default, the text field has a sans-serif font and the textarea has a serif font. 
+The font sizes are different too.
 
+b) Most of the HTML elements inherit the font family and font size from body. 
+But the text input fields don't. They use their default values. To customize, we need to specify these properties separately
+
+
+Example:
+input[type="text"], textarea {
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0;
+  width: 20em;
+  border: 1px solid lightgray;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1em;
+}
+
+8) 
 
 
 
