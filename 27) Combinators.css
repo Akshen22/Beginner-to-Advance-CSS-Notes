@@ -1,4 +1,4 @@
-1) Combinators:
+1) Overview of Combinators:
 We can select an element directly using its class, or id, or tag name. 
 But sometimes, we need to select elements based on their relationship with other elements. 
 For example, how will we select all paragraphs that are nested inside a div?
@@ -100,9 +100,15 @@ h1 + p {
 }
 /*These elements that are children of a common parent and are at the same nested level are called siblings.*/
 
-5) 
+5) Selecting any Next Element:
+a) When we need to select any sibling element that follows a particular element, we use the ~ character to combine two selectors!
+h1 ~ p
 
+b) h1 ~ p will select all the p elements after an h1 element within the same parent element. 
+This will select all descendant p elements too. 
+The p element should be after the h1 element and should be a direct child or a descendant of the parent of the h1 element!
 
-
-
-
+c) Example:
+h1 ~ p {
+  color: brown;
+}
