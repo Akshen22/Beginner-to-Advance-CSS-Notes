@@ -55,7 +55,38 @@ c) More types:
 :nth-child(3n) - Selects every 3rd matching child element 
 :nth-child(3n-2) - Selects every 3rd matching child element starting from the first one
 
-9) first-of-type:
+/*Here, it's restricted to parent-child, to sort this issue, we can use: nth-of-type*/
+
+9) nth-of-type:
+a) When we want to select the 7th element of its type within its parent, or select the first 15 elements or every 3rd element and so on, 
+We can use the :nth-of-type pseudo-class!
+
+b) In the following example, we want to float every second link within the div to the right:
+HTML:
+<div>
+  <p>
+    Albert Einstein was a German-born theoretical physicist, widely acknowledged to be one of the greatest physicists of all time.
+  </p>
+  <a href="#">Works</a>
+  <a href="#">Read more</a>
+  <p>
+    Sir Isaac Newton PRS was an English mathematician, physicist, astronomer, theologian, and author who is widely recognised as one of the greatest mathematicians and most influential scientists of all time and as a key figure in the scientific revolution.
+  </p>
+  <a href="#">Works</a>
+  <a href="#">Read more</a>
+</div>
+
+c) CSS:
+a:nth-of-type(even) {
+  float: right;
+}
+
+d) Similarly, 
+:nth-of-type(n+2) --> Selects all elements of the type starting from the 2nd one
+:nth-child(3n) --> Selects every 3rd element of the type
+:nth-child(3n-2) -->  Selects every 3rd element of the type starting from the first one
+
+10) first-of-type:
 With the :first-of-type pseudo-class, we can select a particular type of element; 
 If we want to select the first span element within its parent, whether or not it is the first child, we use: span:first-of-type {}
 HTML:
@@ -77,7 +108,7 @@ span:first-of-type {
   background-color: orange;
 }
 
-10) Similarly, for last-of-type!
+11) Similarly, for last-of-type!
 
 CSS:
 span {
@@ -89,4 +120,4 @@ span:last-of-type {
   background-color: orange;
 }
 
-11) 
+12) 
