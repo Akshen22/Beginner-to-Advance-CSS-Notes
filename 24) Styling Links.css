@@ -54,5 +54,3 @@ a:active must be specified after a:hover and a:hover must be specified after a:v
 .btn-decline:hover {
   background-color: red;
 }
-
-6) 
