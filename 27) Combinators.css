@@ -20,7 +20,7 @@ div > p {
 
 Here, > is a combinator. Notice that the styles were only applied to the p elements within a div.
 
-2) Selecting all Child Elements:
+2.1) Selecting all Child Elements:
 a) When we need to select a particular set of child elements, we use the space character like this:
 div a {
   
@@ -29,13 +29,13 @@ b) Here, div a will select all a elements that are the children of a div element
 c) In the example given above, all the div elements' children that are 'a' elements are selected and given an orange color. 
 Actually, not children, but descendants are selected. Descendants include children, children's children, and so on...
 
-3) Example:
+2.2) Example:
 #note p {
   font-size: 0.9em;
   color: darkgray;
 }
 
-4) Selecting Direct Child Elements:
+3) Selecting Direct Child Elements:
 When we need to select only the direct child elements, we use the > character like this:
 nav > ul
 This will select all ul elements that are direct children of nav. 
@@ -86,7 +86,7 @@ nav > ul > li > a {
 /*Notice that the ul and li nested within #dropdown are not affected by the styles. 
 This is because the > is only selecting the children who are one level deep.*/
 
-5) 
+4) 
 
 
 
