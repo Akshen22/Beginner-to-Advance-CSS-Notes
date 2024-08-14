@@ -126,5 +126,40 @@ a:active {
   color: darkred;
 }
 
-7) 
+7) First and Last Child:
+We can also apply styles to an element based on its location in HTML. 
+If it's the first child or the last child of its parent element, we can use :first-child or :last-child pseudo-classes!
+
+HTML:
+<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Services</li>
+  <li>Contact</li>
+</ul>
+<div>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+</div>
+
+CSS:
+ul {
+  list-style-type: none;
+  margin: 0 0 40px -40px;
+}
+ul > li {
+  display: inline-block;
+  padding-right: 20px;
+}
+li:first-child:hover {
+  color: orange;
+}
+a:last-child {
+  float: right;
+}
+
+8) 
+
+
 
