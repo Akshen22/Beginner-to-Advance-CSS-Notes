@@ -1,1 +1,15 @@
+1) Marker Style:
+For an unordered list, each item has a little circular disc as the marker type by default. 
+We can change this marker using the property: list-style-type!
+Marker types: 
+i) unordered lists: square, disc, and circle
+ii) ordered lists: decimal, upper-alpha, lower-roman and upper-roman
 
+Example:
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-alpha;
+}
