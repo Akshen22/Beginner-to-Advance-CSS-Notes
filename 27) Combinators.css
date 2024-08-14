@@ -29,7 +29,13 @@ b) Here, div a will select all a elements that are the children of a div element
 c) In the example given above, all the div elements' children that are 'a' elements are selected and given an orange color. 
 Actually, not children, but descendants are selected. Descendants include children, children's children, and so on...
 
-3) 
+3) Example:
+#note p {
+  font-size: 0.9em;
+  color: darkgray;
+}
+
+4) 
 
 
 
