@@ -28,4 +28,18 @@ a {
 
 2) Whenever we need, margin-top & margin-bottom but isn't happening, write: display: inline-block;
 
+3) using States:
+We can change the appearance of links not only like the normal elements but also depending on some user actions. 
+Like when the user takes their cursor over the link, or just when the user clicks the link or based on whether the link was previously visited or not. 
+For this, we use the following link states:
 
+i) a:visited - Applies if the link was visited previously
+
+ii) a:hover - Applies when the user takes the cursor over the link
+
+iii) a:active - Applies when the link is just clicked
+
+Here, a:visited, a:hover and a:active are called Pseudo-class selectors.
+a:active must be specified after a:hover and a:hover must be specified after a:visited for the styles to take effect.
+
+4) 
