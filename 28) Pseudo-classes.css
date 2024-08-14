@@ -85,7 +85,14 @@ button:focus {
   outline: 1px solid darkblue;
 }
 
-5) 
+5) Active:
+When you click or tap on an element, it goes into the active state during the click.
+syntax: 
+button:active {
+  background-color: purple;
+}
+
+6) 
 
 
 
