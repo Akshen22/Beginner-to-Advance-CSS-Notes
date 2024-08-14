@@ -83,7 +83,10 @@ nav > ul > li > a {
   border-bottom: 3px solid midnightblue;
   font-weight: 700;
 }
+/*Notice that the ul and li nested within #dropdown are not affected by the styles. 
+This is because the > is only selecting the children who are one level deep.*/
 
+5) 
 
 
 
