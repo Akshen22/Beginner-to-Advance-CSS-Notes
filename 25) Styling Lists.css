@@ -23,4 +23,11 @@ ol {
   list-style-type: none;
 }
 
-2) 
+2) List Marker Image:
+The property list-style-image can be used to display an image in place of the list item marker!
+Example:
+ul {
+  list-style-image: url('blue-marker.png');
+}
+
+3) 
