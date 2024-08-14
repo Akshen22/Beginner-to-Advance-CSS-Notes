@@ -83,8 +83,8 @@ a:nth-of-type(even) {
 
 d) Similarly, 
 :nth-of-type(n+2) --> Selects all elements of the type starting from the 2nd one
-:nth-child(3n) --> Selects every 3rd element of the type
-:nth-child(3n-2) -->  Selects every 3rd element of the type starting from the first one
+:nth-of-type(3n) --> Selects every 3rd element of the type
+:nth-of-type(3n-2) -->  Selects every 3rd element of the type starting from the first one
 
 10) first-of-type:
 With the :first-of-type pseudo-class, we can select a particular type of element; 
