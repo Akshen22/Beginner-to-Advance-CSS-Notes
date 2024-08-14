@@ -45,4 +45,26 @@ p:hover {
   color: green;
 }
 
-3) 
+3) Can also change styles of another element when one element is hovered, using CSS combinators:
+HTML:
+<div>
+  Hover over me to see the paragraph element
+</div>
+<p>
+  You can see me
+</p>
+
+CSS:
+p {
+  position: absolute;
+  display: none;
+  background-color: orange;
+  padding: 8px;
+}
+
+div:hover + p {
+  display: block;
+}
+
+4) 
+
