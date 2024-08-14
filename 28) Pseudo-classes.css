@@ -66,5 +66,26 @@ div:hover + p {
   display: block;
 }
 
-4) 
+4) Focus:
+When you click or tap on an element, or when you use the tab key on keyboard to move to it, an element gets focus. 
+By default, the browser adds a blue outline to an element that is focused. This can be changed using the :focus pseudo-class:
+
+HTML:
+<form>
+  <h3>Register:</h3>
+  <input type="text" id="name" placeholder="Full name">
+  <button type="button">Submit</button>
+</form>   
+
+CSS:
+#name:focus {
+  outline: 1px solid black;
+}
+button:focus {
+  outline: 1px solid darkblue;
+}
+
+5) 
+
+
 
