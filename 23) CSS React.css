@@ -1,1 +1,39 @@
+1) Browser Default Styles:
+Most browsers add some styling of their own to your web pages.
+To modify according to the way we want, we use:
+h2 {
+  
+}
+
+But what if, we don't want to modify instead: reset?
+
+2) Reset:
+When we get better at designing using CSS, we don't want the browser to throw in its own styles on top of the ones that we specify.
+How do we get rid of these default styles?
+
+Example:
+HTML:
+<section>
+  <h2>Is Artificial Intelligence art not art?</h2>
+</section>
+
+CSS:
+h2 {
+	font-size: 100%;
+	font: inherit;
+	color: green;
+	text-decoration: underline;
+}
+
+i) font: inherit; --> it's shorthand to inherit several font-related properties from the parent element, including font size, font family, font style, font weight, line height, and more. 
+This ensures that the <h2> element uses the same font properties as its parent element, maintaining consistency in text appearance.
+
+ii) font-size: 100%; --> sets the font size of the <h2> element to 100% of the font size of its parent element. 
+In other words, the <h2> element will inherit the font size of its parent container.
+
+3) A CSS reset is CSS code that we can put at the top of our own code. The CSS reset code will neutralize any code that the browser wants to add to our webpages. 
+There are some popular CSS Reset stylesheets that you can choose from:
+i) Eric Meyer's CSS Reset
+ii) HTML5 Doctor CSS Reset
+/*https://courses.bigbinaryacademy.com/learn-css/css-reset/reset-complete-code/*/
 
