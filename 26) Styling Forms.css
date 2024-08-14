@@ -181,6 +181,7 @@ input[type="submit"] {
 11) Hover & Focus Styles:
 When you take your mouse over a text input or a button, the background or border colour can be changed using the :hover pseudo-class selector!
 
+a) Hover:
 HTML:
 <input type="text" id="email" placeholder="Email ID">
 <input type="button" id="subscribe" value="Subscribe">
@@ -205,3 +206,13 @@ CSS:
   cursor: pointer;
 }
 
+b) focus:
+
+#email:hover, #email:focus {
+  border: solid 1px #888888;
+  outline: none;
+}
+#subscribe:hover, #subscribe:focus {
+  background-color: #4567de;
+  cursor: pointer;
+}
