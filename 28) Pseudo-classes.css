@@ -31,4 +31,18 @@ button:hover {
   background-color: darkblue;
 }
 
-2) 
+2) Hover:
+When a user takes the mouse pointer over an element, you can style it differently by appending :hover to the selector!
+
+Example:
+p:hover {
+  color: brown;
+}
+#link1:hover {
+  text-decoration: none;
+}
+#link2:hover {
+  color: green;
+}
+
+3) 
