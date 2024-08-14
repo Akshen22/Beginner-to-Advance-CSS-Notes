@@ -68,8 +68,21 @@ If we use the input selector for styling, the changes will apply to all types of
 To style each type of input differently, we can select these elements using the attribute selector:
 input[type="value"]
 
+4) Padding & Margin for Text Inputs:
+We can add spacing within the text fields and text areas using the padding property 
+and spacing around these input types using the margin property!
 
+Example:
+input[type="text"], textarea {
+  padding: 15px;
+  margin: 10px 0;
+  width: 300px;
+}
 
+5) Border for text inputs:
+Text input fields and textareas have a border by default.
+But we can change their look using the border property, border: ;!
+Can create rounder border, using: border-radius: ;!
 
 
 
