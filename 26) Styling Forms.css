@@ -84,6 +84,13 @@ Text input fields and textareas have a border by default.
 But we can change their look using the border property, border: ;!
 Can create rounder border, using: border-radius: ;!
 
+6) Color for text inputs:
+We can set the text color and background color of text inputs using the color and background-color properties!
+/*If we don't specify any border color, the text color is applied to the border too.*/
+
+7) 
+
+
 
 
 
