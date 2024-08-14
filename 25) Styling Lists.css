@@ -32,7 +32,7 @@ ul {
 
 3) List Marker Position:'
 The list-style-position property is used to specify whether the list marker is placed within the list text or outside the list text
-Types: inner, outside
+Types: inside, outside
 
 Example:
 ul {
