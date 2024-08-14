@@ -1,0 +1,58 @@
+8) nth Child:
+
+a) Apart from the first and last child, you can also select a specific child element using the :nth-child pseudo-class!
+HTML:
+<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Services</li>
+  <li>Contact</li>
+</ul>
+
+CSS:
+ul {
+  list-style-type: none;
+  margin: 0 0 40px -40px;
+}
+ul > li {
+  display: inline-block;
+  padding-right: 20px;
+}
+li:nth-child(2) {
+  color: orange;
+}
+
+The child count starts from 1. Hence :nth-child(1) is same as :first-child.
+
+b) Using the nth-child pseudo-class, you can also select even or odd numbered child elements!
+HTML:
+<h2>Planets of the Solar System</h2>
+<ul>
+  <li>Mercury</li>
+  <li>Venus</li>
+  <li>Earth</li>
+  <li>Mars</li>
+  <li>Jupiter</li>
+  <li>Saturn</li>
+  <li>Uranus</li>
+  <li>Neptune</li>
+</ul>
+
+CSS:
+ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+li {
+  padding: 10px;
+}
+li:nth-child(odd) {
+  background-color: #f0f1f6;
+}
+
+c) More types:
+:nth-child(n+3) - Selects all matching child elements starting from 3rd one 
+:nth-child(3n) - Selects every 3rd matching child element 
+:nth-child(3n-2) - Selects every 3rd matching child element starting from the first one
+
+9) 
