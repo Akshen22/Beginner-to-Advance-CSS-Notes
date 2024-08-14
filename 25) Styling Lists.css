@@ -46,4 +46,43 @@ ul {
   list-style-position: outside; /* Default value */
 }
 
-4) 
+4) Assessment:
+HTML:
+<div>
+  <ol class="ice-cream">
+    <li>Butterscotch</li>
+    <li>Vanilla</li>
+    <li>Chocolate Chip</li>
+    <li>Strawberry</li>
+    <li>Pista</li>
+  </ol>
+
+  <ul class="sports">
+    <li>Football</li>
+    <li>Hockey</li>
+    <li>Volleyball</li>
+    <li>Basketball</li>
+  </ul>
+
+  <ul class="footer">
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#" >Home</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</div>
+
+CSS:
+.ice-cream {
+  list-style-type: lower-roman;
+  list-style-position: inside;
+}
+
+.sports {
+  list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
+}
+
+.footer {
+  border-top: 1px solid grey;
+  text-align: center;
+  list-style-type: none;
+}
