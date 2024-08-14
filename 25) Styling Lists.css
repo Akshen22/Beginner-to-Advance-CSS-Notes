@@ -30,4 +30,20 @@ ul {
   list-style-image: url('blue-marker.png');
 }
 
-3) 
+3) List Marker Position:'
+The list-style-position property is used to specify whether the list marker is placed within the list text or outside the list text
+Types: inner, outside
+
+Example:
+ul {
+  max-width: 350px;
+  margin-left: -20px;
+}
+#inner {
+  list-style-position: inside;
+}
+#outer {
+  list-style-position: outside; /* Default value */
+}
+
+4) 
