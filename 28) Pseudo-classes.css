@@ -1,3 +1,4 @@
+1) Overview:
 When you want to apply styles to an element in a specific state;
 Such as, when the element is hovered over by the mouse pointer or when the element is focused on by user's click or tap, you can use pseudo-classes like :hover or :focus.
 
@@ -30,4 +31,4 @@ button:hover {
   background-color: darkblue;
 }
 
-
+2) 
