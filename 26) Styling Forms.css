@@ -107,9 +107,39 @@ input[type="text"], textarea {
   font-size: 1em;
 }
 
-8) 
+8) Textarea Resize:
+Used to resize textarea!
+syntax: resize: horizontal/vertical/none/both!
 
+once we have given the syntax, we can scratch the box from the bottom right!
 
+9) Styling select inputs:
+The select input can be styled in the standard manner much like any other HTML element or a form element!
+
+HTML:
+<form>
+  <p>
+    Are you happy with our service?
+  </p>
+  <select name="review">
+    <option value="5">Very Happy</option>
+    <option value="4">Satisfied</option>
+    <option value="3">Neutral</option>
+    <option value="2">Unhappy</option>
+    <option value="1">Disappointed</option>
+  </select>
+</form>
+
+CSS:
+select {
+  padding: 15px;
+  margin: 5px 0;
+  width: 20em;
+  border: 1px solid lightgray;
+  background-color: beige;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1em;
+}
 
 
 
