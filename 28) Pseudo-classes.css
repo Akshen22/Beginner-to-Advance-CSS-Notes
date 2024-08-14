@@ -1,0 +1,33 @@
+When you want to apply styles to an element in a specific state;
+Such as, when the element is hovered over by the mouse pointer or when the element is focused on by user's click or tap, you can use pseudo-classes like :hover or :focus.
+
+Example:
+HTML:
+<form>
+  <input type="text" id="name" placeholder="First name">
+  <input type="text" placeholder="Last name">
+  <button type="button">Submit</button>
+</form>
+
+CSS:
+input[type="text"] {
+  border: 1px solid lightgray;
+  padding: 4px 8px;
+  font-size: 1em;
+}
+button {
+  border: none;
+  padding: 4px 8px;
+  background-color: purple;
+  color: white;
+  font-size: 1em;
+}
+#name:focus {
+  outline: none;
+  border: 1px solid black;
+}
+button:hover {
+  background-color: darkblue;
+}
+
+
