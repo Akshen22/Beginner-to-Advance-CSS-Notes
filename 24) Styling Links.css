@@ -42,4 +42,17 @@ iii) a:active - Applies when the link is just clicked
 Here, a:visited, a:hover and a:active are called Pseudo-class selectors.
 a:active must be specified after a:hover and a:hover must be specified after a:visited for the styles to take effect.
 
-4) 
+4) Using ID Selector with Pseudo-classes:
+#download-link:hover {
+  background-color: green;
+}
+
+5) Using Class Selector with Pseudo-classes:
+.btn-accept:hover {
+  background-color: green;
+}
+.btn-decline:hover {
+  background-color: red;
+}
+
+6) 
