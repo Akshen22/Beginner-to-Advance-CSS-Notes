@@ -63,7 +63,12 @@ textarea {
 }
 /*The textarea in the above example occupies 100% width of its parent element, form.*/
 
-3) 
+3) selecting input by type:
+If we use the input selector for styling, the changes will apply to all types of inputs including text input= fields, radio buttons, checkboxes, button input types, etc
+To style each type of input differently, we can select these elements using the attribute selector:
+input[type="value"]
+
+
 
 
 
