@@ -11,8 +11,10 @@ syntax:
 }
 
 /*media type: screen, all, print, speech
-media feature: max-width*/
+media feature: max-width, min-width
+combine 2 or more media features: and, or, not*/
 
+Example 1:  
 HTML:
 <section>
   <div class="col">
@@ -50,4 +52,43 @@ HTML:
   }
 }
 
-2) 
+2)   Example 2:
+HTML:
+<div>
+</div>
+
+CSS:
+div { 
+  height: 200px;
+  background-color: green;
+}
+@media screen and (max-width: 600px) {
+  div {
+    background-color: orange;
+  }
+}
+/*larger screen: green, smaller screen: orange*/
+
+3) Example 3:
+HTML:
+<div>
+</div>
+
+CSS:
+div {
+  height: 200px;
+  background-color: green;
+}
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  div {
+    background-color: orange;
+  }
+}
+@media screen and (max-width: 400px) {
+  div {
+    background-color: red;
+  }
+}
+/*if it's smaller than 400px then only it gonna show red, else orange*/
+
+4) 
