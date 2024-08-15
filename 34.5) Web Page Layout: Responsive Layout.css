@@ -4,6 +4,9 @@ Also, you might have noticed a lot of empty space on both sides of the content f
 To solve these two problems, we can use a mix of fluid and adaptive layouts. 
 That is, we can specify the widths in percentages and use media queries to change them as needed!
 
+@media (max:width: px)
+width: %
+
 HTML:
 <header></header>
 <div class="content">
