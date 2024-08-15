@@ -4,8 +4,8 @@ we can use pseudo-elements, like:-
 i) ::first-line --> used to style only the first line of a paragraph or the first line of each paragraph differently, 
 ii) ::first-letter --> used to style only the first letter of a paragraph or the first letter of each paragraph differently, 
 iii) p:first-child::first-letter --> changes 1st para's, 1st letter as asked...
-iv) ::before --> changes in the start, 
-v) ::after --> changes in the end!
+iv) ::before --> helps to make changes at the start, 
+v) ::after --> helps to make changes in the end!
 
 Example:
 HTML:
