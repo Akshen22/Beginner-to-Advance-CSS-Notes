@@ -5,7 +5,13 @@ i) ::first-line --> used to style only the first line of a paragraph or the firs
 ii) ::first-letter --> used to style only the first letter of a paragraph or the first letter of each paragraph differently, 
 iii) p:first-child::first-letter --> changes 1st para's, 1st letter as asked...
 iv) ::before --> helps to make changes at the start, 
-v) ::after --> helps to make changes in the end!
+v) ::after --> helps to make changes in the end,
+vi) initial letter --> allows us to apply a similar style to the first letter of any HTML element.
+    a) to apply the ::first-letter pseudo-element for initial-letter property to work correctly.
+    b) The initial-letter property accepts two numeric values separated by a space. 
+       value-1 determines the size of the first letter, specified in terms of how many lines it occupies. 
+       value-2 helps us control the vertical alignment of the first letter.
+
 
 Example:
 HTML:
