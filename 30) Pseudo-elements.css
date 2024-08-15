@@ -1,6 +1,11 @@
 1) Overview:
-When we want to apply styles to a part of an element like the first letter or first line of a paragraph, or add some content before or after an element using CSS, without actually adding a new element in HTML, 
-we can use pseudo-elements like:- ::first-line, ::first-letter, ::before and ::after.
+When we want to apply styles to a part of an element like the first letter or first line of a paragraph or add some content before or after an element using CSS, without actually adding a new element in HTML, 
+we can use pseudo-elements, like:- 
+i) ::first-line --> used to style only the first line of a paragraph or the first line of each paragraph differently, 
+ii) ::first-letter --> used to style only the first letter of a paragraph or the first letter of each paragraph differently, 
+iii) p:first-child::first-letter --> changes 1st para's, 1st letter as asked...
+iv) ::before --> changes in the start, 
+v) ::after --> changes in the end!
 
 Example:
 HTML:
