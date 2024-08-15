@@ -1,0 +1,67 @@
+1) Variables:
+HTML:
+<div>
+  <h1>CSS variable: --primary-color</h1>
+  <p>CSS variable: --secondary-color</p>
+</div>
+
+CSS:
+div {
+  --primary-color: blue;
+  --secondary-color: green;
+  --primary-font-weight: 800;
+  --secondary-font-weight: 400;
+}
+
+div > h1 {
+  color: var(--primary-color);
+  font-weight: var(--primary-font-weight);
+}
+
+div > p {
+  color: var(--secondary-color);
+  font-weight: var(--secondary-font-weight);
+}
+
+In the above code, we defined the following css variables:
+--primary-color
+--secondary-color
+--primary-font-weight
+--secondary-font-weight
+
+Variable names should begin with double hyphen --, each word should be in lowercase and separated by a hyphen.
+
+2) :root -> is a global selector!
+Allows us to define css properties that will be inherited by other css elements throughout the page.
+
+HTML:
+<div>
+  <h1>McDonald's</h1>
+  <p>I'm loving it!</p>
+</div>
+
+CSS:
+:root {
+  color: yellow;
+}
+
+3) HTML:
+<div>
+  <h1>Dogs</h1>
+  <p>Loyal friends</p>
+</div>
+
+CSS:
+div {
+  --color: red;
+  --color: green;
+}
+
+div > p {
+  color: var(--color);
+}
+
+/*We have declared same css variable --color twice with different values.
+As we can see, the p element has a font-color of green, this happens because of specificity.
+When multiple variables are declared with the same name, the variable will pick the last value assigned to it.*/
+
