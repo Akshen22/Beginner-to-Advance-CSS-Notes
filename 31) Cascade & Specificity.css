@@ -1,1 +1,43 @@
+1) Cascade:
+When you have multiple CSS rules that apply to the same HTML, these rules conflict with each other, and the last one wins:
+
+HTML:
+<p>
+  CSS is Cascading Style Sheets, and the cascading is important.
+</p>
+
+CSS:
+p {
+  color: orange;
+  background-color: black;
+}
+p {
+  color: blue;
+  background-color: black;
+}
+p {
+  color: yellow;
+}
+
+2) Specificity Hierarchy:
+When the selectors are identical, or have the same importance, the rule that comes later wins. 
+But what happens with different selectors?
+
+HTML:
+<p id="p1" class="para">
+  CSS is Cascading Style Sheets, and the cascading is important.
+</p>
+
+CSS:
+#p1 {
+  color: purple;
+}
+.para {
+  color: red;
+}
+
+/*The first selector wins, which is: 'p1' over here*/
+/*Last value wins - first selector wins*/
+
+3) 
 
