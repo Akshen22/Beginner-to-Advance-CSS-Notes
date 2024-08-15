@@ -10,6 +10,9 @@ syntax:
   ...
 }
 
+/*media type: screen, all, print, speech
+media feature: max-width*/
+
 HTML:
 <section>
   <div class="col">
