@@ -39,5 +39,34 @@ CSS:
 /*The first selector wins, which is: 'p1' over here*/
 /*Last value wins - first selector wins*/
 
-3) 
+3) Specificity Value:
+What about the combination of selectors like #div1 p or .menu > ul > li?
+There is a specificity value attached to each of the selectors or combination of selectors. 
+The higher the specificity value, the more specific is the selector. 
+Let's see how this value is calculated:
+value of id: 100
+value of class: 10
+value of element: 1
+
+HTML:
+<div>
+  <p class="para" id="p1">
+    This is a paragraph with a <span class="sp">span</span> element
+  </p>
+</div>
+
+CSS:
+div .para .sp {
+  color: blue;
+}
+#p1 > span {
+  color: orange;
+}
+
+--> So who wins?
+Ans.) div .para .sp: 20
+      #p1 > span: 100
+      'p gonna be orange'
+
+4) 
 
