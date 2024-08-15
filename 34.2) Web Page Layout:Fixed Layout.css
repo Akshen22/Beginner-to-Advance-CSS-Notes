@@ -1,6 +1,22 @@
 Fixed Layout:
 Fix the width of the entire page and width of other elements in pixels!
 
+HTML:
+<header>
+  Header
+</header>
+<div class="content">
+  <div class="left">
+    Left Sidebar
+  </div>
+  <div class="main">
+    Main Content
+  </div>
+  <div class="right">
+    Right Sidebar
+  </div>
+</div>
+
 CSS:
 * {
   margin: 0;
