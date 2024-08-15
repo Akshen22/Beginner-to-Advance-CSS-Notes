@@ -49,9 +49,11 @@ p {
 }
 
 #intro::before, #intro::after {
-    content: '()'
-    font-size: 2.5em;
-    color: green;
+    content: '';
+    display: inline-block;
+    width: 100px;
+    border-top: 3px solid lightgray;
+    margin: 6px 10px;
 }
 
 #quote::first-letter {
