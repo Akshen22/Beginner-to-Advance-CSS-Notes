@@ -20,7 +20,7 @@ HTML:
 </p>
 <h2>Famous Quote:</h2>
 <p id="quote">
-  Remember, today is the tomorrow you worried about yesterday.
+  Remember, today is the tomorrow you worried about yesterday. Don't worry and live your life the fullest.
 </p>
 
 CSS:
@@ -32,10 +32,21 @@ p {
   color: purple;
 }
 
+#quote::first-line {
+    background-color: darkblue;
+}
+
 #quote::before {
   content: '“';
   font-size: 2rem;
   color: purple;
 }
 
-2) 
+#intro::after {
+    content: 'THE END';
+    color: purple;
+}
+
+#quote::first-letter {
+    initial-letter: 3 2
+}
