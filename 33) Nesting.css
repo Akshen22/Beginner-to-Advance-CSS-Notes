@@ -1,0 +1,92 @@
+CSS nesting is the practice of placing selectors inside one another, providing a structured way to target and style specific HTML elements. 
+It reduces repetition, resulting in cleaner and more concise code.
+
+CSS:
+.parent {
+  color: black;
+  background-color: red;
+
+  & span {
+    color: blue;
+  }
+}
+
+This is equivalent to:
+
+.parent {
+  color: black;
+  background-color: red;
+}
+
+.parent span {
+  color: blue;
+}
+
+The '&' is needed at the beginning of each selector for the nesting to be valid. 
+We can think of using '&' as referencing the parent selector.
+
+Example:
+HTML:
+<header>
+  <div class="logo">
+    BB Academy
+  </div>
+  <nav class="menu">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a href="#">Home</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">About</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">Services</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+CSS:
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: lightcyan;
+}
+
+.logo {
+  font-size: 2rem;
+  color: red;
+  &:hover {
+    color: blue;
+  }
+}
+
+.menu {
+  padding: 10px;
+  & .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    & .menu-item {
+      display: inline-block;
+      margin-right: 20px;
+      
+      & a {
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: red;
+        padding: 10px;
+        
+        &:hover {
+          background-color: blue;
+          color: white;
+        }
+      }
+    }
+  }  
