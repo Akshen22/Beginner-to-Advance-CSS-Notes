@@ -1,6 +1,9 @@
 If we can change the appearance of elements based on screen size, our problem is solved. 
 We can use media queries to set different styles for different sizes.
 
+@media (min:width px) and (max:width px)
+width: px
+
 HTML:
 <header></header>
 <div class="content">
