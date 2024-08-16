@@ -48,7 +48,7 @@ Example:
 CSS:
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /*fr: fraction*/
   grid-template-rows: 100px 100px;
   width: 50%;
   border: 2px solid red;
