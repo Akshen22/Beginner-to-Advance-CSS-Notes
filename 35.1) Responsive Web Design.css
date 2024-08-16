@@ -154,4 +154,53 @@ ul {
 }
 
 5) Mobile first and Desktop first Approaches:
+i) set the output panel with a smaller width and later increasing!
+ii) first variable (say, col1:) making it flex: 100%
+iii) later moving on set the rest variables (say, col2 & col3), making it: flex: 1;
+iv) then, in the end, attach one more media, denoting col1 value of flex:2;
 
+@media screen and (min-width: 420px) {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #col1 {
+    flex: 100%;
+  }
+  #col2, #col3 {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  #col1 {
+    flex: 2;
+  }
+}
+
+Problem:
+Using the mobile first approach, set the width of this div to 50% for screens wider than 600px 
+and 33% for screens wider than 900px!
+
+Ans.)
+HTML:
+<div>
+</div>
+
+CSS:
+div {
+  height: 200px;
+  border: 2px solid purple;
+}
+
+@media screen and (min-width: 600px) {
+  div{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  div {
+    width: 33%;
+  }
+}
