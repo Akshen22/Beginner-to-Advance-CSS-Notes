@@ -177,4 +177,22 @@ Grid cell is similar to cells in a spreadsheet, it is the smallest unit of space
   border: 1px solid #5bc292;
 }
 
-7) 
+7) Grid Item:
+HTML:
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+</div>
+
+CSS:
+.container {
+  display: grid;
+}
+
+}
+
+In the above code we could see the div with the container class is parent to the div with the class of item1, item2 and item3. 
+Now when we apply display: grid property to the parent div, then it becomes the grid container and the child items are called grid item.
+
+So, basically a grid item is the child or direct descendants of a grid container.
