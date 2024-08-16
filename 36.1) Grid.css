@@ -42,7 +42,7 @@ and used grid-template-columns and grid-template-rows to define the number and s
 
 2) Grid Container:
 A grid container is created by setting display property to grid, a grid container consists of rows and columns. 
-Some common terms are good to know while working with grid, like: Grid Cell (box), Grid Lines (line of boxes), and Grid Tracks (2 lines of boxes).
+Some common terms are good to know while working with grid, like: Grid Cell (box), Grid Lines (line of boxes), and Grid Tracks (2 adjacent lines of boxes, either rows or columns).
 
 Example:
 CSS:
