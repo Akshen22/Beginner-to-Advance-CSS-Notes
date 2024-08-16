@@ -42,7 +42,7 @@ and used grid-template-columns and grid-template-rows to define the number and s
 
 2) Grid Container:
 A grid container is created by setting display property to grid, a grid container consists of rows and columns. 
-Some common terms are good to know while working with grid, like: Grid Cell (box), Grid Lines (line of boxes), and Grid Tracks (2 adjacent lines of boxes, either rows or columns).
+Some common terms are good to know while working with grid, like: Grid Cell (box), Grid Lines (line of boxes), and Grid Tracks (2 adjacent lines of boxes, either grid-rows or grid-columns).
 
 Example:
 CSS:
@@ -62,4 +62,42 @@ CSS:
   border: 0.5px solid black;
 }
 
-3) 
+3) Grid Lines:
+Grid lines can be seen on either side of a row or column and can be either vertical called "column grid lines" or horizontal called "row grid lines".
+
+4) Grid Tracks:
+Grid track is the space between two adjacent grid lines, i.e. grid's columns or rows. The grid track between the first and second rows of grid lines is seen here.
+
+HTML:
+<div class="container">
+  <div class="item1">1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+</div>
+
+CSS: 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+}
+.item1 {
+  grid-column: 1 / -1; 
+  /*1 indicates the starting column (the first column).
+  -1 indicates the ending column (the last column).*/
+}
+.container > div:nth-child(1) {
+  background-color: #5bc292;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #00000;
+  border: 1px solid red;
+}
+
+5) 
+
