@@ -99,5 +99,25 @@ CSS:
   border: 1px solid red;
 }
 
-5) 
+5) Grid Cell:
+Grid cell is similar to cells in a spreadsheet, it is the smallest unit of space you can have on your CSS grid layout.
 
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: 100px;
+}
+/*Additional CSS for styling*/
+.item1 {
+  background-color: #5bc292; /*cell 1 turning to green*/
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #00000;
+  border: 1px solid #5bc292;
+}
+
+6) 
