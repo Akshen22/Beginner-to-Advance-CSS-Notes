@@ -13,4 +13,15 @@ p {
   }
 }
 
-7) 
+7) Responsive Images:
+To make images responsive without media queries, set their `max-width` to 100%. 
+This ensures the image fills the screen on smaller devices, while not exceeding its original size (800px, for example) on larger screens. 
+Resize the screen to see how the image adjusts—no empty space on large screens or scrollbars on small ones.
+
+Example:
+img {
+  width: 800px;
+  max-width: 100%
+}
+
+8) 
