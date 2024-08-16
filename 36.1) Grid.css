@@ -99,7 +99,7 @@ CSS:
 .item1 {
   grid-column: 1 / -1; 
   /*1 indicates the starting column (the first column).
-  -1 indicates the ending column (the last column).*/
+  -1 indicates the ending column (counts from the last column).*/
 }
 .container > div:nth-child(1) {
   background-color: #5bc292;
@@ -113,7 +113,23 @@ CSS:
   border: 1px solid red;
 }
 
-5) Grid Cell:
+5) Grid Row and Grid Column: The grid-row and grid-column property sets a grid item's position and size.
+
+a) grid-row and grid-column are shorthand for the following properties:
+grid-row: grid-row-start / grid-row-end;
+grid-column: grid-column-start / grid-column-end;
+
+b) grid-row-start and grid-column-start specify the row/column grid line of the grid layout from where the grid item starts.
+And grid-row-end and grid-column-end specify the row/column grid line where the grid item ends.
+
+c) Example:
+
+.item1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+6) Grid Cell:
 Grid cell is similar to cells in a spreadsheet, it is the smallest unit of space you can have on your CSS grid layout.
 
 .container {
@@ -134,4 +150,4 @@ Grid cell is similar to cells in a spreadsheet, it is the smallest unit of space
   border: 1px solid #5bc292;
 }
 
-6) 
+7) 
