@@ -1,0 +1,15 @@
+8) Grid Template Columns & Rows:
+The number and widths of columns in a grid layout are specified by the grid-template-columns property.
+Each value in the values list, which is separated by spaces, indicates the size of the corresponding column.
+
+For example, the below code will generate 4 columns of 100px each, can also use 'auto'!
+CSS:
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+}
+Similarly, with rows!
+
+9) Grid Template Areas:
+
+
