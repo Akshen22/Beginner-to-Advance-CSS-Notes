@@ -24,4 +24,27 @@ img {
   max-width: 100%
 }
 
-8) 
+8) Responsive Text:
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+In summary, the code sets different font sizes for <h1> and <h2> elements based on the screen width. 
+On smaller screens, <h1> is 2rem and <h2> is 1.5rem. 
+On larger screens (767px and above), <h1> becomes 2.5rem and <h2> becomes 2rem.
+
+9) Responsive Blocks:
+One of the earliest methods of creating responsive layouts is to set the width of blocks in percentages and stack them one below the other for mobile devices. 
+With the help of media queries, we can use flex to stack them next to each other on larger screens; other options are float & grid!
