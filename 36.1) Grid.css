@@ -40,4 +40,26 @@ and used grid-template-columns and grid-template-rows to define the number and s
 
 /*Changing the value of grid-template-columns and grid-template-rows, we can change the whole layout of the page by controlling rows and columns.*/
 
-2) 
+2) Grid Container:
+A grid container is created by setting display property to grid, a grid container consists of rows and columns. 
+Some common terms are good to know while working with grid, like: Grid Cell (box), Grid Lines (line of boxes), and Grid Tracks (2 lines of boxes).
+
+Example:
+CSS:
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  width: 50%;
+  border: 2px solid red;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #00000;
+  border: 0.5px solid black;
+}
+
+3) 
