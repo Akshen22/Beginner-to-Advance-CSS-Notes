@@ -34,4 +34,21 @@ table, th, td {
   border-collapse: collapse; /*no double lines!*/
 }
 
-4) 
+The default value for this property is separate.
+
+4) Width for Tables:
+Manier times content inside a table does not fit properly, so at this moment we can set the width as min-width: 500px;
+doing this our content can fit easily and if the contact is less, the width gonna be automatically lesser!
+
+HTML: (above code)
+
+CSS:
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+table {
+  min-width: 500px;
+}
+
+5) 
