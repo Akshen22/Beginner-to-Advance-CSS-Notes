@@ -95,7 +95,7 @@ table, th, td {
   border: 1px solid darkgray;
   border-collapse: collapse;
 }
-the, td {
+th, td {
   min-width: 500px;
   min-height: 500px
   vertical-align: left
