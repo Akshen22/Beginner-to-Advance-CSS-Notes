@@ -110,7 +110,7 @@ table, th, td {
   border: 1px solid darkgray;
   border-collapse: collapse;
 }
-the, td {
+th, td {
   min-width: 500px;
   text-align: left;
   padding: 10px 15px 17px 22px;
