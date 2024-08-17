@@ -1,7 +1,7 @@
-1) Overview:
+* Overview:
 Without styling, HTML tables look plain. Let's look at some of the commonly used properties to enhance their look and readability
 
-a) Border:
+1) Border:
 HTML:
 <table>
   <tr>
@@ -23,7 +23,7 @@ table, th, td {
   border: thin doubled black;
 }
 
-3) Border Collapse for Tables:
+2) Border Collapse for Tables:
 If you have noticed whenever we keep the style of the border: a double; 
 there are 2 lines, which don't suit many times and we feel to remove them, so there will use, border-collapse!
 HTML: (above HTML code)
@@ -36,7 +36,7 @@ table, th, td {
 
 The default value for this property is separate.
 
-4) Width for Tables:
+3) Width for Tables:
 Manier times content inside a table does not fit properly, so at this moment we can set the width as min-width: 500px;
 doing this our content can fit easily and if the contact is less, the width gonna be automatically lesser!
 
@@ -51,4 +51,4 @@ table {
   min-width: 500px;
 }
 
-5) 
+4) 
