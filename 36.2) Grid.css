@@ -150,3 +150,6 @@ body {
 .container > div:nth-child(2n) {
   background-color: #f26561;
 }
+
+11) Grid Gap:
+specifies the width of the space between rows and columns in a grid layout
