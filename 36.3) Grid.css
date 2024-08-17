@@ -1,5 +1,4 @@
-12) Justify Content: used & written under .container {}, 
-justify-content property justify the grid items along the row or X-axis.
+12) Justify Content: justify-content property justify the grid items along the row or X-axis.
 helps to shift content on:
 i) left (start),
 ii) right (end), 
@@ -18,3 +17,9 @@ syntax: justify-items: start/end/center/stretch (as it is)
 
 15) Align Items: similar to align-content but align-items property gets applied to all the grid items inside the container along the column or Y-axis.
 syntax: align-items: start/end/center/stretch (as it is)
+
+16) Justify Self: applied to an individual grid item and aligns the grid item along the row or X-axis within a cell.
+syntax: justify-self: start/end/center/stretch (as it is)
+
+17) Align Self: applied to an individual grid item and aligns the grid item along the column or Y-axis within a cell.
+syntax: align-self: start/end/center/stretch (as it is)
