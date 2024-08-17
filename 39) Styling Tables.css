@@ -131,7 +131,26 @@ td {
   background-color: white;
 }
 
-11) 
+11) Styling Specific Rows:
+a) We can style specific rows of a table using pseudo-classes like: first-child, :last-child, and so on, along with the tr selector
+Types:
+last-child, first-child, nth-child(1/2/3/4/5), nth-child(even/odd)
+
+b) CSS:
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px 25px 20px auto;
+}
+
+tr:last-child {
+  background-color: green;
+}
+
+
+
 
 
 
