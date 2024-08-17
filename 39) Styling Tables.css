@@ -88,6 +88,20 @@ td {
 }
 
 8) Vertical alignment in Tables:
+When you set a height for the entire table or for individual rows, the text is vertically aligned to the middle by default. 
+The 'vertical-align' property can be used to change this alignment using the values "top, middle, or bottom".
+CSS: 
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+the, td {
+  min-width: 500px;
+  min-height: 500px
+  vertical-align: left
+}
+
+9) 
 
 
 
