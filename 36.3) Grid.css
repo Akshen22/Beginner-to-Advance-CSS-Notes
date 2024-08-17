@@ -44,4 +44,37 @@ Example:
   grid-column: 1 / -1; /*starts before the first column and ends just before the last column.*/
 }
 
-19) 
+19) Similarly, Grid Rows!
+
+20) Fractional unit: fr is a fractional unit and 1fr means 1 part of the available space.
+commonly, used in: grid-template-column!
+
+21) MinMax:
+The minmax() CSS function is used to set a minimum and maximum length of a grid. 
+It accepts 2 arguments minimum value and maximum value. It is very useful for creating responsive layouts when combined with relative units like fr.
+syntax: grid-template-columns: minmax(100px, 1fr) 1fr 1fr; /*minimum: 100px, max: 1fr, fits according towidth of the screen*/
+
+22) Repeat:
+The repeat() CSS function makes writing grid-template-columns and grid-template-rows properties concise and easier, when creating a large amount of columns or rows.
+
+Examples:
+a) grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; could be written as grid-template-columns: repeat( 6, 1fr );
+b) grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr; could be written as grid-template-columns: repeat(3, 1fr 2fr);
+c) Repeat() can be used with minmax() for example grid-template-columns: repeat(3, minmax(200px, 1fr)) will create 3 columns with minimum of 200px or maximum of 1fr width.
+
+23) Auto fit:
+Previously, we saw how grid-template-columns, repeat and minmax can be used to create large layouts with minimum code. 
+Now let's see how to make these large layouts responsive for small screen devices.
+To achieve wrapping of multiple columns we can use auto-fit.
+
+Let's look at an example: 
+grid-template-columns: repeat( auto-fit, minmax(50px, 1fr) );
+
+24) Auto fill:
+creates implicit columns whenever a new column can fit, 
+but instead of expanding the grid items, it adds empty space which could be seen by inspecting the DOM elements of the grid container.
+
+25) Grid Auto Flow: used to control it's auto-placement.
+a) grid-auto-flow: row --> This is the default value, that places the grid items row-wise.
+b) grid-auto-flow: column --> Places the grid items column-wise.
+c) grid-auto-flow: dense --> dense is a magical value, it uses an algorithm to fill any empty spaces most efficiently.
