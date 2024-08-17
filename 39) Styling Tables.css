@@ -174,3 +174,38 @@ td:nth-child(2) {
 th:nth-child(even) {
   color: green;
 }
+
+Problem:
+Set a width of 100px and text-align as right for the last column in the table!
+(if not specified th or td, then write both)
+
+HTML:
+<table>
+  <tr>
+    <th>Sport</th>
+    <th>Equipment</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>Boxing</td>
+    <td>Gloves</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Archery</td>
+    <td>Arrow</td>
+    <td>10</td>
+  </tr>
+</table>
+
+CSS:
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th:last-child, td:last-child {
+  width: 100px;
+  text-align: right;
+}
