@@ -99,7 +99,7 @@ body {
 }
 
 10) Grid Template:
-grid-template is a shorthand property to set grid-template-rows, grid-template-columns and grid-template-areas in a single declaration.
+grid-template is a shorthand property to set grid-template-rows, and grid-template-columns in a single declaration.
 
 syntax:
 a) grid-template: grid-template-rows / grid-template-columns;
