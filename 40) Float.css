@@ -1,1 +1,24 @@
+1) Float Property:
+We can use the float property to put an element on the right or left side inside its parent element. 
+This takes the element out of the normal page structure and the other elements can wrap around it!
 
+HTML:
+<div>
+  <img src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/har-ki-doon-valley-uttarakhand_tJ6flaLSZ.jpg" alt="Har ki Doon Valley Uttarakhand">
+  <h1>Har Ki Doon</h2>
+  <p>
+    Har Ki Doon or Har Ki Dun is a cradle-shaped hanging valley in the Garhwal Himalayas of Uttarakhand, India. The region is surrounded with green Bugyals (High Altitude Meadows). It is surrounded by snow-covered peaks and alpine vegetation. It is connected to Baspa Valley by the Borasu Pass. (Credits: Wikipedia)
+  </p>
+</div>
+
+CSS:
+img {
+  float: left;
+  padding-right: 15px;
+  width: 250px;
+}
+
+The commonly used values for this property are:
+left,
+right,
+none!
