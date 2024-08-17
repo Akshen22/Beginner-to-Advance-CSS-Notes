@@ -103,7 +103,37 @@ the, td {
 
 The vertical-align property has no effect on the table selector.
 
-9) 
+9) Padding in Tables:
+Similar to other elements like div and p, you can set padding for table cells using the th and td selectors!
+CSS:
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+the, td {
+  min-width: 500px;
+  text-align: left;
+  padding: 10px 15px 17px 22px;
+}
+
+10) Background Color for Tables:
+We can set background-color for the entire table using the table selector. 
+Or we could do this separately for any of the rows using the th or td selectors:
+CSS:
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+th {
+  background-color: blue;
+}
+td {
+  background-color: white;
+}
+
+11) 
+
+
 
 
 
