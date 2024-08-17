@@ -98,6 +98,55 @@ body {
   background-color: #f7c558;
 }
 
-10) 
+10) Grid Template:
+grid-template is a shorthand property to set grid-template-rows, grid-template-columns and grid-template-areas in a single declaration.
 
+syntax:
+a) grid-template: grid-template-rows / grid-template-columns;
+b) grid-template: 100px 100px 100px / 100px auto 200px;
 
+equivalent too:
+grid-template-rows: 100px 100px 100px;
+grid-template-columns: 100px auto 200px;
+grid-template-areas: none;
+
+Example:
+HTML:
+<div class="container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+</div>
+
+CSS:
+/*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template: 100px 100px 100px / 100px auto 200px;
+}
+/*Additional CSS for styling*/
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000000;
+}
+body {
+  background-color: #f6e59e;
+  padding: 10px;
+  margin: 0px;
+}
+.container > div:nth-child(1n) {
+  background-color: #92d2b4;
+}
+.container > div:nth-child(2n) {
+  background-color: #f26561;
+}
