@@ -58,5 +58,21 @@ As we did for width, we can do for Height of the table, keeping max-height: 500p
 
 6) Similarly, we can set the height for rows & individual rows separately, using th & td, if not table!
 
-7) 
+7) Horizontal alignment in Tables:
+By default, the text in the header row is center aligned and the text in all other rows is left aligned. 
+The text-align property can be used to change this alignment using the values left, right, center, or justify!
+
+CSS:
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+table {
+  min-width: 500px;
+  text-align: left
+}
+
+8) Vertical alignment in Tables:
+
+
 
