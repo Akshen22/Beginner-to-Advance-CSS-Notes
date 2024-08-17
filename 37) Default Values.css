@@ -1,0 +1,34 @@
+1) Text Decoration:
+text-decoration is a shorthand for: 
+text-decoration-line, text-decoration-color, text-decoration-style, and text-decoration-thickness properties.
+
+2) Font Size:
+Used to set the size of the font. The default font size set in browsers is 16px.
+
+3) Font Family:
+There is no specific default or initial value for font-family, but it depends on the browser or operating system.
+Ideally, it's: serif or sans-serif
+
+4) Background:
+background is a shorthand to set all the background style properties together at a time.
+
+Below is the list of all the background properties and their default values:
+i) background-color:	transparent
+ii) background-image:	none
+iii) background-repeat:	repeat
+iv) background-attachment:	scroll
+v) background-position:	0% 0%
+vi) background-size:	auto
+vii) background-origin:	padding-box
+viii) background-clip:	border-box
+
+syntax: background: transparent none repeat scroll 0% 0% auto padding-box border-box
+
+5) Border:
+border is a shorthand for border-width, border-style, and border-color. 
+It is used to set an element's border.
+
+The default values of these properties are:
+i) border-style: none;
+ii) border-width: medium;
+iii) border-color: currentcolor;
