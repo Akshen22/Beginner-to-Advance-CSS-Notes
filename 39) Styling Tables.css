@@ -171,11 +171,6 @@ td:last-child {
 td:nth-child(2) {
   color: yellow;
 }
-th:nth-child(odd) {
+th:nth-child(even) {
   color: green;
 }
-
-
-
-
-
