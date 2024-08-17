@@ -1,1 +1,37 @@
 1) Overview:
+Without styling, HTML tables look plain. Let's look at some of the commonly used properties to enhance their look and readability
+
+a) Border:
+HTML:
+<table>
+  <tr>
+    <th>Sport</th>
+    <th>Equipment</th>
+  </tr>
+  <tr>
+    <td>Boxing</td>
+    <td>Gloves</td>
+  </tr>
+  <tr>
+    <td>Archery</td>
+    <td>Arrow</td>
+  </tr>
+</table>
+
+CSS:
+table, th, td {
+  border: thin doubled black;
+}
+
+3) Border Collapse for Tables:
+If you have noticed whenever we keep the style of the border: a double; 
+there are 2 lines, which don't suit many times and we feel to remove them, so there will use, border-collapse!
+HTML: (above HTML code)
+
+CSS:
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse; /*no double lines!*/
+}
+
+4) 
