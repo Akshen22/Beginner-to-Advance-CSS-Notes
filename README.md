@@ -151,13 +151,13 @@ Welcome to the **CSS Mastery Syllabus**! This repository contains a comprehensiv
 To get started with the CSS Mastery Syllabus, clone this repository:
 
 ```bash
-git clone https://github.com/Akshen22/CSS
+git clone https://github.com/Akshen22/Beginner-to-Advance-CSS-Notes.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd CSS
+cd Beginner-to-Advance-CSS-Notes
 ```
 
 Open the `https://bigbinary-academy.neetocode.com/` site in your browser to start coding!
